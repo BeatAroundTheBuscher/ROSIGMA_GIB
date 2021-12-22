@@ -1,0 +1,23 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_2_EXPERIENCED: "Orkz Orkz Orkz"
+
+
+arcScripts:
+  - type: marines
+    maxDifficulty: 0 # was 1
+
+  - type: marinesPickStrategy
+    maxDifficulty: 0 # was 1
+
+
+
+  - type: orkz
+    minDifficulty: 1
+    maxDifficulty: 1
+    sequentialArcs:
+      - STR_ORKZ
+    lastMonth: 0
+    maxArcs: 1
+

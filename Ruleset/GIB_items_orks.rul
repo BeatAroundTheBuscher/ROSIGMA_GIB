@@ -1,0 +1,11 @@
+# names are taken from 40k/Ruleset/items_40k.rul and items_IG.rul
+
+items:
+  - type: STR_CHOPPA
+    costBuy: 100
+    requiresBuy:
+      - STR_ORKZ
+
+  - type: STR_STUB_GUN
+    requiresBuy:
+      - STR_NOT_AVAILABLE

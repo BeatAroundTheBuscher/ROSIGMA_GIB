@@ -1,0 +1,7 @@
+name: "Green is Best"
+version: "0.291"
+author: "Buscher"
+description: "Playable Orkz. WAAAGH"
+id: "40k_Green_is_Best"
+master: "40k"
+reservedSpace: 1

@@ -1,0 +1,17 @@
+extraSprites:
+  - type: INTICON.PCK 
+    files:
+      200: Resources/Crafts/Vulture_minimised.png # + 11 # + 33      
+      211: Resources/Crafts/Vulture_dogfight.png  
+
+  - type: BASEBITS.PCK
+    files:
+      233: Resources/Crafts/Vulture_base2.png 
+
+  - type: GlobeMarkers
+    width: 252
+    height: 14
+    subX: 7
+    subY: 7
+    files:
+      9: Resources/Geo/globe_ufo_new.png
