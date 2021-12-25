@@ -1,0 +1,31 @@
+extraSprites:
+
+  - type: BACK01.SCR # main menu
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/165.gif
+
+  - type: BACK02.SCR # soldier screen
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/166.gif
+
+  - type: BACK13.SCR # purchase screen
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/163.gif
+
+  - type: TAC00.SCR # battle endturn
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/endturn.gif
+
+
