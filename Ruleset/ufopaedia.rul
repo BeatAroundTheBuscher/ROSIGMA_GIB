@@ -1,0 +1,60 @@
+ufopaedia:
+  - id: STR_GRETCHIN_BLASTA
+    section: STR_ORK_WEAPONS
+    requires:
+      - STR_ORKZ
+      
+  - id: STR_GRETCHIN_AMMO_BIT
+    section: STR_ORK_WEAPONS
+    requires:
+      - STR_ORKZ
+
+  - id: STR_SLUGGA
+    section: STR_ORK_WEAPONS
+    requires:
+      - STR_ORKZ
+
+  - id: STR_AMMO_BIT10
+    section: STR_ORK_WEAPONS
+    requires:
+      - STR_ORKZ
+
+  - id: STR_AMMO_BIT20
+    section: STR_ORK_WEAPONS
+    requires:
+      - STR_ORKZ
+
+  - id: STR_SHOOTA
+    section: STR_ORK_WEAPONS
+    requires:
+      - STR_ORKZ
+
+  - id: STR_ORK_GRENADE 
+    section: STR_ORK_WEAPONS
+    requires:
+      - STR_ORKZ
+
+  - id: STR_BIG_SHOOTA
+    section: STR_ORK_WEAPONS
+    requires:
+      - STR_ORKZ
+
+  - id: STR_AMMO_BIT50
+    section: STR_ORK_WEAPONS
+    requires:
+      - STR_ORKZ
+
+  - id: STR_ORK_RL
+    section: STR_ORK_WEAPONS
+    requires:
+      - STR_ORKZ
+
+  - id: STR_CHOPPA
+    section: STR_ORK_WEAPONS
+    requires:
+      - STR_ORKZ
+
+  - id: STR_BIGCHOPPA
+    section: STR_ORK_WEAPONS
+    requires:
+      - STR_ORKZ
