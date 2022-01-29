@@ -6,6 +6,12 @@ startingBaseExperienced:
     - type: STR_ACCESS_OUTP
       x: 0
       y: 1
+    - type: STR_HANGAR_OUTPOST
+      x: 4
+      y: 1
+    - type: STR_HANGAR_OUTPOST
+      x: 4
+      y: 3
   randomSoldiers:
     STR_SOLDIER_ORK: 8
     STR_SOLDIER_GRETCHIN: 4

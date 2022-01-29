@@ -1,4 +1,11 @@
 ufopaedia:
+
+  - id: STR_HANGAR_OUTPOST
+    type_id: 16
+    section: STR_BASE_FACILITIES
+    image_id: HANGAR_OUTPOST.SPK
+    text: STR_HANGAR_UFOPEDIA
+
   - id: STR_GRETCHIN_BLASTA
     section: STR_ORK_WEAPONS
     type_id: 14
@@ -62,3 +69,5 @@ ufopaedia:
     section: STR_ORK_WEAPONS
     requires:
       - STR_ORKZ
+
+

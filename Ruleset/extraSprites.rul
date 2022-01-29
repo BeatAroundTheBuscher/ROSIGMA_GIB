@@ -29,3 +29,20 @@ extraSprites:
       0: Resources/Backgrounds/endturn.gif
 
 
+  - type: BASEBITS.PCK 
+    files:
+      63: Resources/Basebits/Outpost/OUTH1.png # Etty
+      64: Resources/Basebits/Outpost/OUTH2.png
+      65: Resources/Basebits/Outpost/OUTH3.png
+      66: Resources/Basebits/Outpost/OUTH4.png
+      67: Resources/Basebits/Outpost/OUTH1.png
+      68: Resources/Basebits/Outpost/OUTH2.png
+      69: Resources/Basebits/Outpost/OUTH3.png
+      70: Resources/Basebits/Outpost/OUTH4.png
+
+  - type: HANGAR_OUTPOST.SPK # Etty
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Basebits/Outpost/hangar_outpost.png
