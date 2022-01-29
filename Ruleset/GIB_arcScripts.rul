@@ -1,17 +1,6 @@
-extraStrings:
-  - type: en-US
-    strings:
-      STR_2_EXPERIENCED: "Orkz Orkz Orkz"
-
-
 arcScripts:
-  - type: marines
-    maxDifficulty: 0 # was 1
-
-  - type: marinesPickStrategy
-    maxDifficulty: 0 # was 1
-
-
+  - delete: chambermilitant
+  - delete: chamberPickStrategy
 
   - type: orkz
     minDifficulty: 1
