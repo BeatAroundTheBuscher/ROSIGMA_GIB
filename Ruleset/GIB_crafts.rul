@@ -22,34 +22,44 @@
     score: 250
     repairRate: 4
 
-    soldiers: 12
+    soldiers: 14
     vehicles: 1
     battlescapeTerrainData:
-      name: ORKEXP_PLAYER
+      name: ORK_CONVOY_PLAYER
       mapDataSets:
         - BLANKS
-        - ORKT2
+        - ORKT2_PLAYER
         - ORKP
         - ORKT
       mapBlocks:
-        - name: ORKEXP_PLAYER
+        - name: ORK_CONVOY
           width: 10
           length: 20
+          height: 4
+          items:
+            STR_TURRET1_PLAYER_SPAWNER:
+              - [5, 12, 2]
+            STR_TURRET2_PLAYER_SPAWNER:
+              - [6, 14, 2]
+          fuseTimers:
+            STR_KILLA_SPAWNER: [0, 0]
+            STR_TURRET1_PLAYER_SPAWNER: [0, 0]
+            STR_TURRET2_PLAYER_SPAWNER: [0, 0]
     deployment:
+      - [3, 1, 1, 0]
+      - [4, 1, 1, 0]
+      - [3, 2, 1, 0]
       - [4, 2, 1, 0]
-      - [5, 2, 1, 0]
+      - [3, 3, 1, 0]
       - [4, 3, 1, 0]
-      - [5, 3, 1, 0]
+      - [3, 4, 1, 0]
       - [4, 4, 1, 0]
-      - [5, 4, 1, 0]
-      - [4, 5, 1, 0]
-      - [5, 5, 1, 0]
-      - [3, 12, 1, 0]
-      - [4, 12, 1, 0]
-      - [3, 13, 1, 0]
-      - [4, 13, 1, 0]
-      - [3, 14, 1, 0]
-      - [4, 14, 1, 0]
-    craftInventoryTile: [4, 1, 1]
+      - [5, 12, 1, 0]
+      - [6, 12, 1, 0]
+      - [5, 13, 1, 0]
+      - [6, 13, 1, 0]
+      - [5, 14, 1, 0]
+      - [6, 14, 1, 0]
+    craftInventoryTile: [5, 14, 1]
     listOrder: 9999
     spacecraft: true
