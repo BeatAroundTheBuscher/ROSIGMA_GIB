@@ -13,4 +13,8 @@ en-US:
   STR_SOLDIER_ORK: "Ork Boy"
   STR_SOLDIER_GRETCHIN: "Gretchin"
 
+  STR_1_BEGINNER: "(Not Available in GIB)"
   STR_2_EXPERIENCED: "Orkz Orkz Orkz"
+  STR_3_VETERAN: "(Not Available in GIB)"
+  STR_4_GENIUS: "(Not Available in GIB)"
+  STR_5_SUPERHUMAN: "(Not Available in GIB)"
