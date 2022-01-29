@@ -18,3 +18,13 @@ terrains:
         width: 10
         length: 10
         groups: [7]
+
+  - name: MIG2x2
+    mapDataSets:
+      - BLANKS
+      - ORKT
+      - ORKP
+    mapBlocks:
+      - name: MIG2x2
+        width: 20
+        length: 20
