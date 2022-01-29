@@ -1,11 +1,15 @@
 ufopaedia:
   - id: STR_GRETCHIN_BLASTA
     section: STR_ORK_WEAPONS
+    type_id: 14
+    image_id: 1OK1.SPK
     requires:
       - STR_ORKZ
       
   - id: STR_GRETCHIN_AMMO_BIT
     section: STR_ORK_WEAPONS
+    type_id: 14
+    image_id: 1OK1.SPK
     requires:
       - STR_ORKZ
 
