@@ -1,0 +1,41 @@
+terrains:
+  - name: XBASE_ORK
+    mapDataSets:
+      - BLANKS
+      - BATTLE
+      - DEBRIS
+      - ORK
+      - ORK2
+    script: XBASE
+    mapBlocks:
+      - name: XBASE_ORK00
+        width: 30
+        length: 30
+      - name: XBASE_ORK01
+        width: 10
+        length: 10
+      - name: XBASE_ORK02
+        width: 10
+        length: 10
+      - name: XBASE_ORK03
+        width: 10
+        length: 10
+      - name: XBASE_ORK04
+        width: 10
+        length: 10
+      - name: XBASE_ORK05
+        width: 10
+        length: 10
+      - name: XBASE_ORK06
+        width: 10
+        length: 10
+      - name: XBASE_ORK07
+        width: 10
+        length: 10
+      - name: XBASE_ORK08
+        width: 10
+        length: 10
+      - name: XBASE_ORK09
+        width: 10
+        length: 10
+        groups: [7]
