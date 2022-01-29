@@ -63,3 +63,34 @@
     craftInventoryTile: [5, 14, 1]
     listOrder: 9999
     spacecraft: true
+
+
+  - type: STR_ORK_MIG_INTERCEPTOR
+    requires:
+      - STR_ORKZ
+    marker: 39
+    sprite: 201
+    fuelMax: 1000
+    damageMax: 150
+    speedMax: 2400
+    accel: 5
+    weapons: 3
+    weaponTypes:
+      - 0
+      - 0
+      - [4, 5, 13]
+    weaponStrings:
+      - STR_WEAPON_ONE
+      - STR_WEAPON_TWO
+      - STR_WEAPON_THREE
+    costBuy: 500000
+    costRent: 250000
+    costSell: 42500
+    soldiers: 1
+    vehicles: 0
+    refuelRate: 200
+    transferTime: 96
+    score: 250
+    pilots: 1
+    allowLanding: false
+    listOrder: 230

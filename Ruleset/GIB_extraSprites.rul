@@ -1,12 +1,16 @@
 extraSprites:
   - type: INTICON.PCK 
     files:
-      200: Resources/Crafts/Vulture_minimised.png # + 11 # + 33      
+      200: Resources/Crafts/Vulture_minimised.png # + 11 # + 33 
+      201: Resources/Crafts/ork_mig_minimised.png
+
       211: Resources/Crafts/Vulture_dogfight.png  
+      212: Resources/Crafts/ork_mig_dogfight.png  
 
   - type: BASEBITS.PCK
     files:
       233: Resources/Crafts/Vulture_base2.png 
+      234: Resources/Crafts/ork_mig_base.png 
 
   - type: GlobeMarkers
     width: 252

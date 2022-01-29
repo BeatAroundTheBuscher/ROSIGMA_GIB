@@ -38,8 +38,18 @@ startingBaseExperienced:
         STR_BOLTER_ENFORCER: 1
         STR_LIGHT_BOLTER_AMMO: 2
         STR_STUN_ROD: 4
-    - type: STR_LIGHTNING_INTERCEPTOR
+    - type: STR_ORK_MIG_INTERCEPTOR
       id: 1
+      fuel: 1000
+      damage: 0
+      weapons:
+        - type: STR_STINGRAY
+          ammo: 6
+        - type: STR_CANNON_UC
+          ammo: 100
+      status: STR_READY
+    - type: STR_ORK_MIG_INTERCEPTOR
+      id: 2
       fuel: 1000
       damage: 0
       weapons:

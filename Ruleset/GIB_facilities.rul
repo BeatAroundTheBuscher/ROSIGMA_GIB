@@ -15,8 +15,8 @@ facilities:
       - STR_ORKZ
     requiresBaseFunc: [OUTP]
     connectorsDisabled: true
-    spriteShape: {mod: 40k, index: 600}
-    spriteFacility: {mod: 40k, index: 600}
+    spriteShape: {mod: 40k, index: 637}
+    spriteFacility:  {mod: 40k, index: 637}
     size: 3
     buildCost: 1000000
     crafts: 1
