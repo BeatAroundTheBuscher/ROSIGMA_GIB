@@ -1,73 +1,146 @@
 ufopaedia:
 
   - id: STR_HANGAR_OUTPOST
-    type_id: 16
+    id_id: 16
     section: STR_BASE_FACILITIES
     image_id: HANGAR_OUTPOST.SPK
     text: STR_HANGAR_UFOPEDIA
 
   - id: STR_GRETCHIN_BLASTA
-    section: STR_ORK_WEAPONS
-    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    id_id: 14
     image_id: 1OK1.SPK
     requires:
       - STR_ORKZ
       
   - id: STR_GRETCHIN_AMMO_BIT
-    section: STR_ORK_WEAPONS
-    type_id: 14
+#    section: STR_WEAPONS_AND_EQUIPMENT
+    id_id: 14
     image_id: 1OK1.SPK
     requires:
       - STR_ORKZ
 
   - id: STR_SLUGGA
-    section: STR_ORK_WEAPONS
+    section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_ORKZ
 
   - id: STR_AMMO_BIT10
-    section: STR_ORK_WEAPONS
+#    section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_ORKZ
 
   - id: STR_AMMO_BIT20
-    section: STR_ORK_WEAPONS
+#    section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_ORKZ
 
   - id: STR_SHOOTA
-    section: STR_ORK_WEAPONS
+    section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_ORKZ
 
   - id: STR_ORK_GRENADE 
-    section: STR_ORK_WEAPONS
+    section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_ORKZ
 
   - id: STR_BIG_SHOOTA
-    section: STR_ORK_WEAPONS
+    section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_ORKZ
 
   - id: STR_AMMO_BIT50
-    section: STR_ORK_WEAPONS
+#    section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_ORKZ
 
   - id: STR_ORK_RL
-    section: STR_ORK_WEAPONS
+    section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_ORKZ
 
   - id: STR_CHOPPA
-    section: STR_ORK_WEAPONS
+    section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_ORKZ
 
   - id: STR_BIGCHOPPA
-    section: STR_ORK_WEAPONS
+    section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_ORKZ
 
 
+## Armors
+
+  - id: ORK_TURRET_ARMOR
+  - id: ORK_TURRET2_ARMOR
+  - id: STR_ORK_KILLA_ARMOR #KILLA #    ORK ARMOR
+    section: STR_ARMORPEDIA
+    requires:
+      - STR_ORKZ
+  - id: STR_GROTS_ARMOR
+    section: STR_ARMORPEDIA
+    requires:
+      - STR_ORKZ
+  - id: STR_ORK_ARMORL
+    section: STR_ARMORPEDIA
+    requires:
+      - STR_ORKZ
+  - id: STR_ORK_ARMOR_BURNA
+    section: STR_ARMORPEDIA
+    requires:
+      - STR_ORKZ
+  - id: STR_ORK_FLASHGITZ_ARMOR
+    section: STR_ARMORPEDIA
+    requires:
+      - STR_ORKZ
+  - id: STR_ORK_ARMOR_MEKBOY
+    section: STR_ARMORPEDIA
+    requires:
+      - STR_ORKZ
+  - id: STR_ORK_STORM_ARMOR
+    section: STR_ARMORPEDIA
+    requires:
+      - STR_ORKZ
+  - id: STR_ORK_BIKE_ARMOR            #ORK WARBIKE
+    section: STR_ARMORPEDIA
+    requires:
+      - STR_ORKZ
+  - id: STR_ORK_ARMORM
+    section: STR_ARMORPEDIA
+    requires:
+      - STR_ORKZ
+  - id: STR_ORK_TANKBUSTA_ARMOR
+    section: STR_ARMORPEDIA
+    requires:
+      - STR_ORKZ
+  - id: STR_ORK_ARMORH
+    section: STR_ARMORPEDIA
+    requires:
+      - STR_ORKZ
+  - id: STR_ORK_ARDEST_ARMOR
+    section: STR_ARMORPEDIA
+    requires:
+      - STR_ORKZ
+  - id: STR_ORK_ARMORKommando #ARMOR
+    section: STR_ARMORPEDIA
+    requires:
+      - STR_ORKZ
+  - id: STR_ORK_ARMORMEGA #Meganobz Mega Armour
+    section: STR_ARMORPEDIA
+    requires:
+      - STR_ORKZ
+  - id: STR_SQUIG #SQUIG TEST
+  - id: STR_WEIRDORK_ARMOR
+    section: STR_ARMORPEDIA
+    requires:
+      - STR_ORKZ
+  - id: STR_ORK_ARMOR_MEGAWARBOSS #Warboss Mega Armour
+    section: STR_ARMORPEDIA
+    requires:
+      - STR_ORKZ
+  - id: STR_ORK_ARMOR_DEFFKOPTER #Deffkopter Armour
+    section: STR_ARMORPEDIA
+    requires:
+      - STR_ORKZ
