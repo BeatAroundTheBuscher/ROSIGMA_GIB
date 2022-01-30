@@ -23,3 +23,21 @@ items:
   - type: STR_TURRET2_PLAYER_SPAWNER
     refNode: *STR_TURRET_PLAYER_SPAWNER
     spawnUnit: STR_ORK_TURRET2
+
+## Craft Weapons
+
+  - type: STR_CANNON
+    requiresBuy:
+      - STR_ORKZ
+
+  - type: STR_CANNON_ROUNDS_X50
+    requiresBuy:
+      - STR_ORKZ
+
+  - type: STR_STINGRAY_LAUNCHER
+    requiresBuy:
+      - STR_ORKZ
+
+  - type: STR_STINGRAY_MISSILES
+    requiresBuy:
+      - STR_ORKZ

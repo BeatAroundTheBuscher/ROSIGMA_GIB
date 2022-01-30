@@ -199,21 +199,7 @@ items:
 
 ## Craft Weapons
 
-  - type: STR_CANNON
-    requiresBuy:
-      - STR_NOT_AVAILABLE
 
-  - type: STR_CANNON_ROUNDS_X50
-    requiresBuy:
-      - STR_NOT_AVAILABLE
-
-  - type: STR_STINGRAY_LAUNCHER
-    requiresBuy:
-      - STR_NOT_AVAILABLE
-
-  - type: STR_STINGRAY_MISSILES
-    requiresBuy:
-      - STR_NOT_AVAILABLE
 
   - type: STR_AVALANCHE_LAUNCHER
     requiresBuy:

@@ -18,3 +18,12 @@ en-US:
   STR_3_VETERAN: "(Not Available in GIB)"
   STR_4_GENIUS: "(Not Available in GIB)"
   STR_5_SUPERHUMAN: "(Not Available in GIB)"
+
+  STR_CANNON: "Craft Kannon"
+  STR_CANNON_UC: "CRAFT KANNON"
+  STR_CANNON_ROUNDS_X50: "Craft Kannon Bits"
+  STR_STINGRAY_LAUNCHER: "Craft Rokkit Launcha"
+  STR_STINGRAY_MISSILES: "Craft Rokkits"
+  STR_STINGRAY: "CRAFT ROKKITS"
+
+  STR_ALIEN_LIFE_FORMS: "ENEMIES"
