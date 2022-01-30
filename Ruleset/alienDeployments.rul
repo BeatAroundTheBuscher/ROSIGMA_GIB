@@ -53,7 +53,7 @@ alienDeployments:
       STR_ORK_WAGGON_PATROL_SMALL: 75
       STR_ORK_WAGGON_PATROL_MEDIUM: 25
       STR_ORK_RETALIATION: 10
-    genMissionFreq: 4 
+    genMissionFreq: 10
     alienBaseUpgrades:
       0:
         STR_ORKBASE1: 100
