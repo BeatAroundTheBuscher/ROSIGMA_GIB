@@ -22,10 +22,12 @@ facilities:
     crafts: 1
     buildTime: 10
     monthlyCost: 600000
-    personnel: 50
+    personnel: 100
     storage: 100
     radarRange: 2577
     radarChance: 20
+    labs: 25
+    workshops: 50
     mapName: XBASE_ORK00
     storageTiles:
             - [24, 6, 1]
