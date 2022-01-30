@@ -8,7 +8,7 @@ facilities:
         groups: [10] # 1x1
       - type: ceiling
         blocks: [2] # probably not 60, you'll have to count the number of where XBASE_60 is in the terrain, starting from 0
-        size: [1, 1, 3] # if the craft is going on z = 1, the height here needs to be 1
+        size: [1, 1, 5] # if the craft is going on z = 1, the height here needs to be 1
 
   - type: STR_OUTPOST_ORK
     requires:
@@ -72,14 +72,26 @@ facilities:
         blocks: [1] # probably not 60, you'll have to count the number of where XBASE_60 is in the terrain, starting from 0
         size: [2, 2, 1] # if the craft is going on z = 1, the height here needs to be 1
       - type: ceiling
-        size: [2, 2, 4] # x and y need to match the size of the facility, and all of the heights should add up to the deployment height
+        size: [2, 2, 5] # x and y need to match the size of the facility, and all of the heights should add up to the deployment height
         terrain: MIG2x2 # needs a 20x20 map to match the hangar
         blocks: [0]
     listOrder: 800
 
 
   - type: STR_GENERAL_STORES
-    mapName: XBASE_ORK02
+    spriteShape: {mod: 40k, index: 0}
+    spriteFacility: 100
+    requiresBaseFunc: [OUTP]
+    connectorsDisabled: true
+    mapName: XBASE_ORK03
+    storageTiles:
+            - [4, 6, 1]
+            - [5, 6, 1]
+            - [7, 6, 1]
+            - [2, 4, 1]
+            - [8, 3, 1]
+            - [7, 3, 2]
+
 
 
   - type: STR_ACCESS_LIFT
@@ -101,9 +113,6 @@ facilities:
     requires: 
       - STR_GENERALLOCK
   - type: STR_MISSILE_DEFENSES
-    requires: 
-      - STR_GENERALLOCK
-  - type: STR_GENERAL_STORES
     requires: 
       - STR_GENERALLOCK
   - type: STR_ALIEN_CONTAINMENT
@@ -228,5 +237,5 @@ alienDeployments:
   - type: STR_BASE_DEFENSE                            # RANK0 # RANK1 STR_INSIDE_ENVIRO
     terrains:
       - XBASE_ORK
-    height: 5
+    height: 6
 

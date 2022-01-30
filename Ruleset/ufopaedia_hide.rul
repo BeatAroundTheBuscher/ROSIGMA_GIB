@@ -243,9 +243,11 @@ ufopaedia:
   - id: STR_MISSILE_DEFENSES #facility
     requires:
       - STR_HIDE_LOCK
+
+
   - id: STR_GENERAL_STORES #facility
-    requires:
-      - STR_HIDE_LOCK
+
+
   - id: STR_ALIEN_CONTAINMENT #facility
     requires:
       - STR_HIDE_LOCK

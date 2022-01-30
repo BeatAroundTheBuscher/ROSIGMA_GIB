@@ -22,15 +22,11 @@ ufopaedia:
 
   - id: STR_GRETCHIN_BLASTA
     section: STR_WEAPONS_AND_EQUIPMENT
-    id_id: 14
-    image_id: 1OK1.SPK
     requires:
       - STR_ORKZ
       
   - id: STR_GRETCHIN_AMMO_BIT
 #    section: STR_WEAPONS_AND_EQUIPMENT
-    id_id: 14
-    image_id: 1OK1.SPK
     requires:
       - STR_ORKZ
 
