@@ -305,6 +305,14 @@ ufopaedia:
     requires:
       - STR_HIDE_LOCK
 
+  - id: TARANTULA_ARMOR
+    requires:
+      - STR_HIDE_LOCK
+
+  - id: TARANTULA_BOLTER_ARMOR
+    requires:
+      - STR_HIDE_LOCK
+
 ## ARMOR
 
   - id: STR_A                             #5000 MENU INTRO
@@ -1250,3 +1258,31 @@ ufopaedia:
   - id: STR_EXECUTING_TRAITORS
   - id: STR_PROMOTE_OFFICER
   - id: STR_VETERAN_PROMOTION
+
+# Sister of Battle section
+
+  - delete: STR_ADEPTAS_FRATERIS_MILITIA
+  - delete: STR_ADEPTAS_FRATERIS_MILITIA
+  - delete: STR_NOVICE_ORIGINS
+  - delete: STR_CANTUS
+  - delete: STR_CANTUS_ORIGINS  
+  - delete: STR_ADEPTAS_HARD_START
+  - delete: STR_FAITHFUL_ARMORY
+  - delete: STR_ADEPTAS_SOB_MOBILIZATION
+  - delete: STR_ADEPTAS_PILOT
+  - delete: STR_ADEPTAS_ELOHIM
+  - delete: STR_ELOHIM_ORIGINS 
+  - delete: STR_ADEPTAS_RETRIBUTOR
+  - delete: STR_RETRIBUTOR_ORIGINS 
+  - delete: STR_ADEPTAS_SUPERIOR  
+  - delete: STR_ADEPTAS_SUPERIOR_ORIGINS 
+  - delete: STR_DEATHCULT_ASSASSIN
+  - delete: STR_DEATHCULT_ASSASSIN_ORIGINSTITLE
+  - delete: STR_CHOIR_GUN
+
+# Heraldry
+
+  - delete: STR_ULTRAMARINES
+  - delete: STR_IF
+  - delete: STR_BA
+  - delete: STR_SALA

@@ -30,17 +30,3 @@ research:
     dependencies:
       - STR_GENERALLOCK
 
-ufopaedia:
-  - id: STR_ORKZ
-    type_id: 10
-    section: STR_STRATEGY
-    image_id: PICK_STRATEGY.SPK
-    text: STR_ORKZ_UFOPAEDIA
-    text_width: 286
-    #rect_text:
-    #  x: 81
-    #  y: 33
-    #  width: 228
-    #  height: 142
-    requires:
-      - STR_ORKZ
