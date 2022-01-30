@@ -12,6 +12,8 @@ research:
       - STR_GENERALLOCK
     disables:
       - STR_NOT_AVAILABLE
+    unlocks:
+      - STR_SCIENTISTS_AND_ENGINEERS_AVAILABLE
 
   - name: STR_ORKZ_DUMMY_RESEARCH
     cost: 1000000
