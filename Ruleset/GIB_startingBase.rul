@@ -1,6 +1,6 @@
 startingBaseExperienced:
   facilities:
-    - type: STR_GENERAL_STORES
+    - type: STR_GENERAL_STORES # debug only # together with debug mod
       x: 0
       y: 0
     - type: STR_OUTPOST_ORK

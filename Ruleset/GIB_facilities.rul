@@ -78,6 +78,8 @@ facilities:
     listOrder: 800
 
 
+  - type: STR_GENERAL_STORES
+    mapName: XBASE_ORK02
 
 alienDeployments:
   - type: STR_BASE_DEFENSE                            # RANK0 # RANK1 STR_INSIDE_ENVIRO

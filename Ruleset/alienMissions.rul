@@ -16,3 +16,19 @@ alienMissions:
       0:
         STR_COMPETING_ORK: 100
     siteType: STR_COMPETING_ORKBASE1
+
+  - type: STR_ORK_RETALIATION
+    points: 0
+    objective: 4
+    operationType: 1 # possible edge case when destroying base while mission runs?
+    spawnUfo: STR_WAGGON_CONVOY_UFO # Spawned for the final retaliation run
+    waves:
+      - ufo: STR_DETECTION_UFO # sets retaliationTarget for base
+        count: 1
+        trajectory: P8
+        timer: 3000
+      - ufo: STR_DETECTION_UFO # doesn't work without the second one
+        count: 1
+        trajectory: P8
+        timer: 3000
+
