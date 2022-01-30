@@ -49,3 +49,8 @@ en-US:
 ## Codex
 
   STR_ALIEN_LIFE_FORMS: "ENEMIES"
+
+## Missions
+
+  STR_ORK_BASE_ASSAULT: "Eliminate Competition"
+  STR_ORK_BASE_DESTROYED: "COMPETITION ELIMINATED"
