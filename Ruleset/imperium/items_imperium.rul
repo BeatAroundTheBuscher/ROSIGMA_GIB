@@ -193,6 +193,10 @@ items:
     requires:
       - STR_NOT_AVAILABLE
 
+  - type: STR_PROXIMITY_GRENADE
+    requires:
+      - STR_NOT_AVAILABLE
+
 ## Craft Weapons
 
   - type: STR_CANNON

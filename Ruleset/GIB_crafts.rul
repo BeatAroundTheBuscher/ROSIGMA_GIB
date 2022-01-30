@@ -2,7 +2,7 @@
   - type: STR_ORK_EXPEDITION_PLAYER
     marker: 30
     requires:
-      - STR_IMPERIAL_GUARD_OPERATIONS
+      - STR_ORKZ
     sprite: 200
     fuelMax: 1000
     damageMax: 1000
