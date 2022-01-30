@@ -64,8 +64,8 @@ soldiers:
     soldierNames:
       - delete
       - Names/Orks.nam
-    deathMale: [{mod: 40k, index: 713}, {mod: 40k, index: 714}, {mod: 40k, index: 715}, {mod: 40k, index: 716}, {mod: 40k, index: 717}, {mod: 40k, index: 718}, {mod: 40k, index: 719}, {mod: 40k, index: 720}, {mod: 40k, index: 721}, {mod: 40k, index: 722}]
-    deathFemale: [{mod: 40k, index: 744}, {mod: 40k, index: 745}, {mod: 40k, index: 746}, {mod: 40k, index: 747}, {mod: 40k, index: 748}, {mod: 40k, index: 749}, {mod: 40k, index: 750}, {mod: 40k, index: 751}, {mod: 40k, index: 752}]
+    deathMale: [{mod: 40k, index: 882}, {mod: 40k, index: 883}, {mod: 40k, index: 884}, {mod: 40k, index: 885}, {mod: 40k, index: 886}]
+    deathFemale: [{mod: 40k, index: 882}, {mod: 40k, index: 883}, {mod: 40k, index: 884}, {mod: 40k, index: 885}, {mod: 40k, index: 886}]
     rankStrings:
       - STR_ORK_RANK_0
       - STR_ORK_RANK_1
@@ -137,8 +137,8 @@ soldiers:
     soldierNames:
       - delete
       - Names/Orks.nam
-    deathMale: [{mod: 40k, index: 713}, {mod: 40k, index: 714}, {mod: 40k, index: 715}, {mod: 40k, index: 716}, {mod: 40k, index: 717}, {mod: 40k, index: 718}, {mod: 40k, index: 719}, {mod: 40k, index: 720}, {mod: 40k, index: 721}, {mod: 40k, index: 722}]
-    deathFemale: [{mod: 40k, index: 744}, {mod: 40k, index: 745}, {mod: 40k, index: 746}, {mod: 40k, index: 747}, {mod: 40k, index: 748}, {mod: 40k, index: 749}, {mod: 40k, index: 750}, {mod: 40k, index: 751}, {mod: 40k, index: 752}]
+    deathMale: [{mod: 40k, index: 919}, {mod: 40k, index: 920}]
+    deathFemale: [{mod: 40k, index: 919}, {mod: 40k, index: 920}]
     rankStrings:
       - STR_GRETCHIN_RANK_0
       - STR_GRETCHIN_RANK_1
