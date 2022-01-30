@@ -214,42 +214,102 @@ ufopaedia:
 ## FACILITIES
 
   - id: STR_DEFENSE_CORRIDOR #facility
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_DEFENSE_CORRIDORB #facility
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_DEFENSE_HALL #facility
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_ACCESS_LIFT #facility
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_LIVING_QUARTERS #facility
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_LABORATORY #facility
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_WORKSHOP #facility
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_SMALL_RADAR_SYSTEM #facility
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_LARGE_RADAR_SYSTEM #facility
     requires:
       - STR_HIDE_LOCK
-
   - id: STR_MISSILE_DEFENSES #facility
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_GENERAL_STORES #facility
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_ALIEN_CONTAINMENT #facility
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_PRISION #facility
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_LASER_DEFENSES #facility
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_PLASMA_DEFENSES #facility
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_FUSION_BALL_DEFENSES #facility
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_GRAV_SHIELD #facility
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_MIND_SHIELD #facility
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_PSIONIC_LABORATORY #facility
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_HYPER_WAVE_DECODER #facility
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_HANGAR #facility
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_COMUNICATIONS #facility
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_ARMORY                #facility
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_ARMORY_ARBITES                #facility
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_APOC_BAY #facility
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_LIBRARY #facility
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_INQOFF #facility
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_TEC_BAY #facility
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_STEELMILL #facility
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_CORRIDOR #facility
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_TRAINFACILITY #facility
+    requires:
+      - STR_HIDE_LOCK
 
-  - delete: STR_ACCESS_OUTP         #facility
-  - delete: STR_DIRT                #facility
+
+  - id: STR_ACCESS_OUTP         #facility
+  - id: STR_DIRT                #facility
   - delete: STR_EMPLACEMENT         #facility
   - delete: STR_EMPLACEMENT_HEAVY   #facility
   - delete: STR_MINEFIELD           #facility

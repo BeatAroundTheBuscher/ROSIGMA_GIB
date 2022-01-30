@@ -158,3 +158,20 @@ ufopaedia:
     section: STR_ARMORPEDIA
     requires:
       - STR_ORKZ
+
+## Facilities
+
+  - id: STR_OUTPOST_ORK             #facility
+    type_id: 16
+    section: STR_BASE_FACILITIES
+    image_id: 042.SPK
+    text: STR_OUTPOST_UFOPEDIA
+
+
+  - id: STR_HANGAR_OUTPOST             #facility
+    type_id: 16
+    section: STR_BASE_FACILITIES
+    image_id: 016.SPK
+    text: STR_HANGAR_UFOPEDIA
+
+
