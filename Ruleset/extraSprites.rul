@@ -27,3 +27,11 @@ extraSprites:
     height: 200
     files:
       0: Resources/Backgrounds/endturn.gif
+
+  - type: ORKTURRET2_GIB.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 320
+    files:
+      0: Resources/Unitsprites/orksmall.png

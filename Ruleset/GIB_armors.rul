@@ -9,3 +9,6 @@ armors:
   - type: STR_ORK_ARMOR_MEKBOY
     allowsKneeling: false
     specialWeapon: STR_GUARD_MEDI_KIT
+
+  - type: ORK_TURRET2_ARMOR # TODO: create a new one # also unit and spawner grenade
+    spriteSheet: ORKTURRET2_GIB.PCK

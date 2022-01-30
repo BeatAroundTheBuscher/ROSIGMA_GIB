@@ -6,14 +6,15 @@
     sprite: 200
     fuelMax: 1000
     damageMax: 1000
-    speedMax: 90
+    speedMax: 120
     maxAltitude: 1
     accel: 2
     weapons: 1
-    weaponTypes:
-      - 3
+    weaponTypes:        
+      - 0                              
     weaponStrings:
-      - STR_ANTI_AIR_WEAPONS
+      - STR_WEAPON_ONE
+    fixedWeapons: ["STR_CANNON_UC"]
 
     costBuy: 900000
     costRent: 480000
@@ -25,25 +26,21 @@
     soldiers: 14
     vehicles: 1
     battlescapeTerrainData:
-      name: ORK_CONVOY_PLAYER
+      name: ORK_CONVOY_GIB
       mapDataSets:
         - BLANKS
-        - ORKT2_PLAYER
+        - ORKT2_GIB
         - ORKP
-        - ORKT
+        - ORKT_GIB
       mapBlocks:
-        - name: ORK_CONVOY
+        - name: ORK_CONVOY_GIB
           width: 10
           length: 20
           height: 4
           items:
-            STR_TURRET1_PLAYER_SPAWNER:
-              - [5, 12, 2]
             STR_TURRET2_PLAYER_SPAWNER:
-              - [6, 14, 2]
+              - [5, 12, 2]
           fuseTimers:
-            STR_KILLA_SPAWNER: [0, 0]
-            STR_TURRET1_PLAYER_SPAWNER: [0, 0]
             STR_TURRET2_PLAYER_SPAWNER: [0, 0]
     deployment:
       - [3, 1, 1, 0]
