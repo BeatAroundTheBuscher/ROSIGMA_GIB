@@ -19,3 +19,17 @@ armors:
     selectWeaponFemale: [130, 131, 132, 133, 134]
     annoyedMale:        [135, 136, 137, 138, 139]
     annoyedFemale:      [135, 136, 137, 138, 139]
+
+  - &STR_ORK_TURRET
+    type: ORK_TURRET_ARMOR
+    selectUnitMale:     [140, 141]
+    selectUnitFemale:   [140, 141]
+#    startMovingMale:    [125, 126, 127, 128, 129]
+#    startMovingFemale:  [125, 126, 127, 128, 129]
+    selectWeaponMale:   [150, 151, 152]
+    selectWeaponFemale: [150, 151, 152]
+#    annoyedMale:        [135, 136, 137, 138, 139]
+#    annoyedFemale:      [135, 136, 137, 138, 139]
+
+  - type: ORK_TURRET2_ARMOR
+    refNode: *STR_ORK_TURRET
