@@ -74,3 +74,41 @@ items:
 
   - type: STR_CHOPPA
   - type: STR_BIGCHOPPA
+
+## Vehicle Weapons
+
+  - type: STR_VINDICATOR_ORK
+    dropoff: 5
+    autoRange: 0
+    snapRange: 24
+    aimRange: 33
+
+    accuracyAuto: 0
+    accuracySnap: 60
+    accuracyAimed: 90
+
+    tuAuto: 0
+    tuSnap: 1
+    costSnap:
+      energy: 30
+    tuAimed: 1
+    costAimed:
+      energy: 60
+
+  - type: ORKTURRET_WEAPON
+    dropoff: 5
+    autoRange: 15
+    snapRange: 24
+    aimRange: 0
+
+    accuracyAuto: 70
+    accuracySnap: 80
+    accuracyAimed: 0
+
+    tuAuto: 1
+    costAuto:
+      energy: 60
+    tuSnap: 1
+    costSnap:
+      energy: 40
+    tuAimed: 0
