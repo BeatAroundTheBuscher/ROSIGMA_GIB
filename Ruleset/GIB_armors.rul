@@ -1,3 +1,7 @@
 armors:
   - type: STR_GROTS_ARMOR
     weight: 0
+    allowsKneeling: false
+
+  - type: STR_ORK_ARMORL
+    allowsKneeling: false
