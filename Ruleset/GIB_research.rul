@@ -26,6 +26,10 @@ research:
     dependencies:
       - STR_GENERALLOCK
 
+  - name: STR_COMPETING_ORK_LEVEL_1_DEFEATED
+    dependencies:
+      - STR_GENERALLOCK
+
 ufopaedia:
   - id: STR_ORKZ
     type_id: 10

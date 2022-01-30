@@ -1,5 +1,8 @@
 startingBaseExperienced:
   facilities:
+    - type: STR_GENERAL_STORES
+      x: 0
+      y: 0
     - type: STR_OUTPOST_ORK
       x: 1
       y: 1

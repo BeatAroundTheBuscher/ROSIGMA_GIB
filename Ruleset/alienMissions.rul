@@ -1,0 +1,18 @@
+alienMissions:
+
+  - &STR_SPAWN_COMPETING_ORK_SIGNAL
+    type: STR_ORK_BASE_COMPETING_LEVEL1
+    retaliationOdds: 0
+    operationType: 0
+    spawnZone: 4
+    objective: 2
+    points: 0
+    waves:
+      - ufo: STR_SIGNAL_UFO
+        count: 1
+        trajectory: P5
+        timer: 30
+    raceWeights:
+      0:
+        STR_COMPETING_ORK: 100
+    siteType: STR_COMPETING_ORKBASE1
