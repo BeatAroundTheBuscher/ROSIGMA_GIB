@@ -142,3 +142,5 @@ soldiers:
     rankStrings:
       - STR_GRETCHIN_RANK_0
       - STR_GRETCHIN_RANK_1
+    value: 5
+    moraleLossWhenKilled: 20
