@@ -58,9 +58,9 @@ extraSounds:
 
 # https://www.youtube.com/watch?v=NMv3-ZJeoYI&list=PL9125D43DDA4796A1&index=11
 
-      140: Resources/Voices/Orks/SELork1.ogg
-      141: Resources/Voices/Orks/SELork2.ogg
+      140: Resources/Voices/Turret/SELturret1.ogg
+      141: Resources/Voices/Turret/SELturret2.ogg
 
-      150: Resources/Voices/Orks/ATTork1.ogg
-      151: Resources/Voices/Orks/ATTork2.ogg
-      152: Resources/Voices/Orks/ATTork3.ogg
+      150: Resources/Voices/Turret/ATTturret1.ogg
+      151: Resources/Voices/Turret/ATTturret2.ogg
+      152: Resources/Voices/Turret/ATTturret3.ogg

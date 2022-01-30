@@ -5,3 +5,7 @@ armors:
 
   - type: STR_ORK_ARMORL
     allowsKneeling: false
+
+  - type: STR_ORK_ARMOR_MEKBOY
+    allowsKneeling: false
+    specialWeapon: STR_GUARD_MEDI_KIT

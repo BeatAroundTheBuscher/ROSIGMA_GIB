@@ -18,6 +18,7 @@ startingBaseExperienced:
   randomSoldiers:
     STR_SOLDIER_ORK: 8
     STR_SOLDIER_GRETCHIN: 8
+    STR_SOLDIER_MEKBOY: 2
   crafts:
     - type: STR_ORK_EXPEDITION_PLAYER
       id: 1

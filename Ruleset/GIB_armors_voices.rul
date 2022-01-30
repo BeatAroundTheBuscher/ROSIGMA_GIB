@@ -20,6 +20,9 @@ armors:
     annoyedMale:        [135, 136, 137, 138, 139]
     annoyedFemale:      [135, 136, 137, 138, 139]
 
+  - type: STR_ORK_ARMOR_MEKBOY
+    refNode: *STR_ORK_ARMOR
+
   - &STR_ORK_TURRET
     type: ORK_TURRET_ARMOR
     selectUnitMale:     [140, 141]

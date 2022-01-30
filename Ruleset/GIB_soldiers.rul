@@ -1,5 +1,6 @@
 soldiers:  
-  - type: STR_SOLDIER_ORK # wild range
+  - &STR_ORK
+    type: STR_SOLDIER_ORK # wild range
     costBuy: 60000
     costSalary: 30000
     requires:
@@ -71,6 +72,17 @@ soldiers:
       - STR_ORK_RANK_1
       - STR_ORK_RANK_2
       - STR_ORK_RANK_3
+
+  - type: STR_SOLDIER_MEKBOY
+    costBuy: 100000
+    costSalary: 50000
+    refNode: *STR_ORK
+    armor: STR_ORK_ARMOR_MEKBOY
+    rankStrings:
+      - STR_MEKBOY_RANK_0
+      - STR_MEKBOY_RANK_1
+      - STR_MEKBOY_RANK_2
+      - STR_MEKBOY_RANK_3
 
   - type: STR_SOLDIER_GRETCHIN
     costBuy: 5000

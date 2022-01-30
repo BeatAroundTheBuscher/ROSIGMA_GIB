@@ -41,3 +41,9 @@ items:
   - type: STR_STINGRAY_MISSILES
     requiresBuy:
       - STR_ORKZ
+
+## Special Weapons
+
+  # TODO: Change it to painboy stuff
+  - type: STR_GUARD_MEDI_KIT
+    tuMelee: 0
