@@ -1,4 +1,24 @@
 en-US:
+
+  STR_1_BEGINNER: "(Not Available in GIB)"
+  STR_2_EXPERIENCED: "Orkz Orkz Orkz"
+  STR_3_VETERAN: "(Not Available in GIB)"
+  STR_4_GENIUS: "(Not Available in GIB)"
+  STR_5_SUPERHUMAN: "(Not Available in GIB)"
+
+## Crafts
+
+  STR_ORK_MIG_INTERCEPTOR: "ORK MIG"
+  STR_ORK_EXPEDITION_PLAYER: "ORK CONVOY"
+
+## Soldiers
+
+  STR_SOLDIER_GRETCHIN: "Gretchin"
+  STR_SOLDIER_ORK: "Ork Boy"
+  STR_SOLDIER_MEKBOY: "Mek Boy"
+
+## Ranks
+
   STR_GRETCHIN_RANK_0: "Fodder"
   STR_GRETCHIN_RANK_1: "Gretchin"
 
@@ -12,18 +32,12 @@ en-US:
   STR_MEKBOY_RANK_2: "Mek Boy"
   STR_MEKBOY_RANK_3: "Mek Boy"
 
+## Facilities
 
-  STR_ORK_MIG_INTERCEPTOR: "ORK MIG"
-  STR_OUTPOST_ORK: "Ork Outpost"
-  STR_ORK_EXPEDITION_PLAYER: "ORK CONVOY"
-  STR_SOLDIER_ORK: "Ork Boy"
-  STR_SOLDIER_GRETCHIN: "Gretchin"
+  STR_HANGAR_OUTPOST: "Airfield"
+  STR_OUTPOST_ORK: "Ork Keep"
 
-  STR_1_BEGINNER: "(Not Available in GIB)"
-  STR_2_EXPERIENCED: "Orkz Orkz Orkz"
-  STR_3_VETERAN: "(Not Available in GIB)"
-  STR_4_GENIUS: "(Not Available in GIB)"
-  STR_5_SUPERHUMAN: "(Not Available in GIB)"
+## Craft Weapons
 
   STR_CANNON: "Craft Kannon"
   STR_CANNON_UC: "CRAFT KANNON"
@@ -31,5 +45,7 @@ en-US:
   STR_STINGRAY_LAUNCHER: "Craft Rokkit Launcha"
   STR_STINGRAY_MISSILES: "Craft Rokkits"
   STR_STINGRAY: "CRAFT ROKKITS"
+
+## Codex
 
   STR_ALIEN_LIFE_FORMS: "ENEMIES"

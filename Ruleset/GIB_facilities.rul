@@ -81,6 +81,149 @@ facilities:
   - type: STR_GENERAL_STORES
     mapName: XBASE_ORK02
 
+
+  - type: STR_ACCESS_LIFT
+    requires: 
+      - STR_GENERALLOCK
+  - type: STR_LIVING_QUARTERS
+    requires: 
+      - STR_GENERALLOCK
+  - type: STR_LABORATORY
+    requires: 
+      - STR_GENERALLOCK
+  - type: STR_WORKSHOP
+    requires: 
+      - STR_GENERALLOCK
+  - type: STR_SMALL_RADAR_SYSTEM
+    requires: 
+      - STR_GENERALLOCK
+  - type: STR_LARGE_RADAR_SYSTEM
+    requires: 
+      - STR_GENERALLOCK
+  - type: STR_MISSILE_DEFENSES
+    requires: 
+      - STR_GENERALLOCK
+  - type: STR_GENERAL_STORES
+    requires: 
+      - STR_GENERALLOCK
+  - type: STR_ALIEN_CONTAINMENT
+    requires: 
+      - STR_GENERALLOCK
+  - type: STR_PRISION
+    requires: 
+      - STR_GENERALLOCK
+  - type: STR_LASER_DEFENSES
+    requires: 
+      - STR_GENERALLOCK
+  - type: STR_PLASMA_DEFENSES
+    requires: 
+      - STR_GENERALLOCK
+  - type: STR_FUSION_BALL_DEFENSES
+    requires: 
+      - STR_GENERALLOCK
+  - type: STR_GRAV_SHIELD
+    requires: 
+      - STR_GENERALLOCK
+  - type: STR_MIND_SHIELD
+    requires: 
+      - STR_GENERALLOCK
+  - type: STR_PSIONIC_LABORATORY
+    requires: 
+      - STR_GENERALLOCK
+  - type: STR_HYPER_WAVE_DECODER
+    requires: 
+      - STR_GENERALLOCK
+  - type: STR_HANGAR
+    requires: 
+      - STR_GENERALLOCK
+  - type: STR_COMUNICATIONS
+    requires: 
+      - STR_GENERALLOCK
+  - type: STR_ARMORY
+    requires: 
+      - STR_GENERALLOCK
+  - type: STR_ARMORY_ARBITES
+    requires: 
+      - STR_GENERALLOCK
+  - type: STR_APOC_BAY
+    requires: 
+      - STR_GENERALLOCK
+  - type: STR_LIBRARY
+    requires: 
+      - STR_GENERALLOCK
+  - type: STR_INQOFF
+    requires: 
+      - STR_GENERALLOCK
+  - type: STR_TEC_BAY
+    requires: 
+      - STR_GENERALLOCK
+  - type: STR_TEC_BAY_CHAMBER
+    requires: 
+      - STR_GENERALLOCK
+  - type: STR_DEFENSE_CORRIDOR
+    requires: 
+      - STR_GENERALLOCK
+  - type: STR_DEFENSE_HALL
+    requires: 
+      - STR_GENERALLOCK
+  - type: STR_DEFENSE_CORRIDORB
+    requires: 
+      - STR_GENERALLOCK
+  - type: STR_DEFENSE_CORRIDORGK
+    requires: 
+      - STR_GENERALLOCK
+  - type: STR_CORRIDOR
+    requires: 
+      - STR_GENERALLOCK
+  - type: STR_STEELMILL
+    requires: 
+      - STR_GENERALLOCK
+  - type: STR_TRAINFACILITY
+    requires: 
+      - STR_GENERALLOCK
+  - type: STR_CHAOS_SHRINE
+    requires: 
+      - STR_GENERALLOCK
+  - type: STR_OUTPOST
+    requires: 
+      - STR_GENERALLOCK
+  - type: STR_OUTPOST_MARINES
+    requires: 
+      - STR_GENERALLOCK
+  - type: STR_OUTPOST_GUARD
+    requires: 
+      - STR_GENERALLOCK
+  - type: STR_OUTPOST_ADEPTAS
+    requires: 
+      - STR_GENERALLOCK
+
+
+  - type: STR_DIRT
+  
+
+  - type: STR_EMPLACEMENT
+    requires: 
+      - STR_GENERALLOCK
+  - type: STR_EMPLACEMENT_HEAVY
+    requires: 
+      - STR_GENERALLOCK
+  - type: STR_MINEFIELD
+    requires: 
+      - STR_GENERALLOCK
+  - type: STR_TRAINCAMP
+    requires: 
+      - STR_GENERALLOCK
+  - type: STR_MARKET
+    requires: 
+      - STR_GENERALLOCK
+  - type: STR_POWERG
+    requires: 
+      - STR_GENERALLOCK
+
+
+
+
+
 alienDeployments:
   - type: STR_BASE_DEFENSE                            # RANK0 # RANK1 STR_INSIDE_ENVIRO
     terrains:
