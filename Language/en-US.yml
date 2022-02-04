@@ -125,3 +125,7 @@ en-US:
   STR_IG_SENTINEL_LASCANNON: "Sentinel/Lascannon"
   STR_IG_PSYKER_FEMALE: "Psyker"
   STR_IG_PSYKER_MALE: "Pysker"
+
+## Items
+
+  STR_KILLPOINT_TOKEN: "Waaagh Trophies"
