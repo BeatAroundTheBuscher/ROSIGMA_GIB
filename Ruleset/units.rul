@@ -1,0 +1,336 @@
+units:
+  - type: STR_IG_COMMISSAR_LORD
+    race: STR_IMPERIAL_GUARD
+    rank: STR_LIVE_COMMANDER
+    stats: # balance later
+      tu: 60
+      stamina: 56
+      health: 40
+      bravery: 40
+      reactions: 45
+      firing: 44
+      throwing: 30
+      strength: 30
+      psiStrength: 10
+      psiSkill: 0
+      melee: 70
+    armor: STR_COMMISSAR_CLAW_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 5
+    deathSound: [919, 920]
+    intelligence: 6
+    aggression: 1
+    energyRecovery: 40
+    builtInWeaponSets:
+      - - STR_PISTOL
+        - STR_PISTOL_CLIP
+        - STR_PISTOL_CLIP
+        - STR_GRENADE
+      - - STR_HAND_FLAMETHROWER
+        - STR_HAND_FLAMETHROWER_CLIP
+        - STR_HAND_FLAMETHROWER_CLIP
+        - STR_GRENADE
+        - STR_KRAK_GRENADE
+      - - STR_PLASMA_PISTOL_TERRAN
+        - STR_PLASMA_PISTOL_CLIP
+        - STR_PLASMA_PISTOL_CLIP
+        - STR_KRAK_GRENADE
+        - STR_PHOSPHOR_GRENADE
+
+  - type: STR_IG_COMMISSAR
+    race: STR_IMPERIAL_GUARD
+    rank: STR_LIVE_LEADER
+    stats: # balance later
+      tu: 60
+      stamina: 56
+      health: 40
+      bravery: 40
+      reactions: 45
+      firing: 44
+      throwing: 30
+      strength: 30
+      psiStrength: 10
+      psiSkill: 0
+      melee: 70
+    armor: STR_COMMISSAR_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 5
+    deathSound: [919, 920]
+    intelligence: 6
+    aggression: 1
+    energyRecovery: 40
+    builtInWeaponSets:
+      - - STR_LASER_PISTOLG
+        - STR_LASPISTOL_CLIP
+        - STR_LASPISTOL_CLIP
+        - STR_CHAINSWORD_GUARD
+        - STR_GRENADE
+      - - STR_PISTOL
+        - STR_PISTOL_CLIP
+        - STR_PISTOL_CLIP
+        - STR_CHAINSWORD_GUARD
+        - STR_GRENADE
+        - STR_KRAK_GRENADE
+      - - STR_PLASMA_PISTOL_TERRAN
+        - STR_PLASMA_PISTOL_CLIP
+        - STR_PLASMA_PISTOL_CLIP
+        - STR_CHAINSWORD_GUARD
+        - STR_KRAK_GRENADE
+        - STR_PHOSPHOR_GRENADE
+
+  - &STR_IG_SCION
+    type: STR_IG_SCION_MALE
+    race: STR_IMPERIAL_GUARD
+    rank: STR_LIVE_LEADER
+    stats: # balance later
+      tu: 60
+      stamina: 56
+      health: 40
+      bravery: 40
+      reactions: 45
+      firing: 44
+      throwing: 30
+      strength: 30
+      psiStrength: 10
+      psiSkill: 0
+      melee: 70
+    armor: STR_SCION_CARAPACE_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 5
+    deathSound: [919, 920]
+    intelligence: 6
+    aggression: 1
+    energyRecovery: 40
+    builtInWeaponSets:
+      - - STR_HELLGUN
+        - STR_GRENADE
+        - STR_KRAK_GRENADE
+      - - STR_HOTSHOT_VOLLEY_GUN
+        - STR_GRENADE
+        - STR_KRAK_GRENADE
+      - - STR_PLASMA_RIFLE_TERRAN
+        - STR_PLASMA_RIFLE_CLIP
+        - STR_PLASMA_RIFLE_CLIP
+        - STR_KRAK_GRENADE
+        - STR_PHOSPHOR_GRENADE
+
+  - type: STR_IG_SCION_FEMALE
+    refNode: *STR_IG_SCION
+
+  - type: STR_IG_PRIEST
+    race: STR_IMPERIAL_GUARD
+    rank: STR_LIVE_LEADER
+    stats: # balance later
+      tu: 60
+      stamina: 56
+      health: 40
+      bravery: 40
+      reactions: 45
+      firing: 44
+      throwing: 30
+      strength: 30
+      psiStrength: 10
+      psiSkill: 0
+      melee: 70
+    armor: STR_GUARD_ARMORS_PRIEST_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 5
+    deathSound: [919, 920]
+    intelligence: 6
+    aggression: 1
+    energyRecovery: 40
+    builtInWeaponSets:
+      - - STR_LASER_PISTOLG
+        - STR_LASPISTOL_CLIP
+        - STR_LASPISTOL_CLIP
+        - STR_EVISCERATOR
+        - STR_GRENADE
+      - - STR_PISTOL
+        - STR_PISTOL_CLIP
+        - STR_PISTOL_CLIP
+        - STR_EVISCERATOR
+        - STR_GRENADE
+        - STR_KRAK_GRENADE
+      - - STR_PLASMA_PISTOL_TERRAN
+        - STR_PLASMA_PISTOL_CLIP
+        - STR_PLASMA_PISTOL_CLIP
+        - STR_EVISCERATOR
+        - STR_KRAK_GRENADE
+        - STR_PHOSPHOR_GRENADE
+
+  - &STR_IG_CARAPACE
+    type: STR_IG_CARAPACE_MALE
+    race: STR_IMPERIAL_GUARD
+    rank: STR_LIVE_SOLDIER
+    stats: # balance later
+      tu: 60
+      stamina: 56
+      health: 40
+      bravery: 40
+      reactions: 45
+      firing: 44
+      throwing: 30
+      strength: 30
+      psiStrength: 10
+      psiSkill: 0
+      melee: 70
+    armor: STR_HEAVY_GUARDSMAN_MALE
+    standHeight: 22
+    kneelHeight: 14
+    value: 5
+    deathSound: [919, 920]
+    intelligence: 6
+    aggression: 1
+    energyRecovery: 40
+    builtInWeaponSets:
+      - - STR_ROCKET_LAUNCHER
+        - STR_SMALL_ROCKET
+        - STR_SMALL_ROCKET
+        - STR_SMALL_ROCKET
+        - STR_SMALL_ROCKET
+      - - STR_GRENADE_LAUNCHER
+        - STR_FRAG_GRENADE_DRUM
+        - STR_FRAG_GRENADE_DRUM
+      - - STR_GRENADE_LAUNCHER
+        - STR_KRAK_GRENADE_DRUM
+        - STR_KRAK_GRENADE_DRUM
+
+
+  - type: STR_IG_CARAPACE_FEMALE
+    refNode: *STR_IG_CARAPACE
+    armors: STR_HEAVY_GUARDSMAN_FEMALE
+
+  - &STR_IG_FLAK
+    type: STR_IG_FLAK_MALE
+    race: STR_IMPERIAL_GUARD
+    rank: STR_LIVE_SOLDIER
+    stats: # balance later
+      tu: 60
+      stamina: 56
+      health: 40
+      bravery: 40
+      reactions: 45
+      firing: 44
+      throwing: 30
+      strength: 30
+      psiStrength: 10
+      psiSkill: 0
+      melee: 70
+    armor: GUARD_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 5
+    deathSound: [919, 920]
+    intelligence: 6
+    aggression: 1
+    energyRecovery: 40
+    builtInWeaponSets:
+      - - STR_AUTOGUN
+        - STR_AUTOGUN_CLIP
+        - STR_AUTOGUN_CLIP
+        - STR_GRENADE
+#        - STR_UNIT_TURNER_FT1
+      - - STR_FLAMETHROWER
+        - STR_FLAMETHROWER_CLIP
+        - STR_FLAMETHROWER_CLIP
+        - STR_GRENADE
+        - STR_KRAK_GRENADE
+#        - STR_UNIT_TURNER_FT1
+      - - STR_LASER_RIFLEG
+        - STR_LASGUN_CLIP
+        - STR_LASGUN_CLIP
+        - STR_GRENADE
+        - STR_KRAK_GRENADE
+#        - STR_UNIT_TURNER_FT1
+
+  - type: STR_IG_FLAK_FEMALE
+    refNode: *STR_IG_FLAK
+    armor: GUARD_ARMOROF
+
+  - &STR_IG_NORMAL_SENTINEL
+    type: STR_IG_SENTINEL_MULTILASER
+    race: STR_IMPERIAL_GUARD
+    rank: STR_LIVE_SOLDIER
+    stats: # balance later
+      tu: 60
+      stamina: 56
+      health: 40
+      bravery: 40
+      reactions: 45
+      firing: 44
+      throwing: 30
+      strength: 30
+      psiStrength: 10
+      psiSkill: 0
+      melee: 70
+    armor: STR_GUARD_ARMORS_SENTINEL_MULTILASER_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 5
+    deathSound: [919, 920]
+    intelligence: 6
+    aggression: 1
+    energyRecovery: 40
+
+  - type: STR_IG_SENTINEL_MISSILELAUNCHER
+    refNode: *STR_IG_NORMAL_SENTINEL
+    armor: STR_GUARD_ARMORS_SENTINEL_MISSILE_UC
+    builtInWeaponSets:
+      - - STR_SENTINEL_FRAG_MISSILES
+        - STR_SENTINEL_KRAKK_MISSILES
+      - - STR_SENTINEL_INC_MISSILES
+        - STR_SENTINEL_KRAKK_MISSILES
+      - - STR_SENTINEL_KRAKK_MISSILES
+        - STR_SENTINEL_INC_MISSILES
+
+  - type: STR_IG_SENTINEL_LASCANNON
+    refNode: *STR_IG_NORMAL_SENTINEL
+    armor: STR_SENTINEL_ARMOR_UC
+
+  - &STR_IG_PSYKER
+    type: STR_IG_PSYKER_MALE
+    race: STR_IMPERIAL_GUARD
+    rank: STR_LIVE_SOLDIER
+    stats: # balance later
+      tu: 60
+      stamina: 56
+      health: 40
+      bravery: 40
+      reactions: 45
+      firing: 44
+      throwing: 30
+      strength: 30
+      psiStrength: 10
+      psiSkill: 0
+      melee: 70
+    armor: STR_PSYKER_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 5
+    deathSound: [919, 920]
+    intelligence: 6
+    aggression: 1
+    energyRecovery: 40
+    builtInWeaponSets:
+      - - STR_LASER_PISTOLG
+        - STR_LASPISTOL_CLIP
+        - STR_LASPISTOL_CLIP
+        - STR_GRENADE
+      - - STR_PISTOL
+        - STR_PISTOL_CLIP
+        - STR_PISTOL_CLIP
+        - STR_GRENADE
+        - STR_KRAK_GRENADE
+      - - STR_PLASMA_PISTOL_TERRAN
+        - STR_PLASMA_PISTOL_CLIP
+        - STR_PLASMA_PISTOL_CLIP
+        - STR_KRAK_GRENADE
+        - STR_PHOSPHOR_GRENADE
+
+  - type: STR_IG_PSYKER_FEMALE
+    refNode: *STR_IG_PSYKER
+    armor: STR_PSYKER_ARMOR

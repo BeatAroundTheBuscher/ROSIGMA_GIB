@@ -79,3 +79,24 @@ en-US:
 
   STR_HARD_BOY_ARMOR: "Ork 'ard Boy Armor"
   STR_HARD_BOY_ARMOR_ITEM: "Manufacture Ork 'Hard Boy Armor"
+
+## Races
+
+  STR_COMPETING_ORKBASE1: "Competing Orks"
+  STR_IMPERIAL_GUARD: "Imperial Guard"
+
+## Units
+
+  STR_IG_FLAK_MALE: "Guardsman"
+  STR_IG_FLAK_FEMALE: "Guardsman"
+  STR_IG_CARAPACE_MALE: "Guardsman"
+  STR_IG_CARAPACE_FEMALE: "Guardsman"
+  STR_IG_PRIEST: "Priest"
+  STR_IG_SCION_MALE: "Scion"
+  STR_IG_SCION_FEMALE: "Scion"
+  STR_IG_COMMISSAR: "Commissar"
+  STR_IG_SENTINEL_MISSILELAUNCHER: "Sentinel/Missile Launcher"
+  STR_IG_SENTINEL_MULTILASER: "Sentinel/Multilaser"
+  STR_IG_SENTINEL_LASCANNON: "Sentinel/Lascannon"
+  STR_IG_PSYKER_FEMALE: "Psyker"
+  STR_IG_PSYKER_MALE: "Pysker"

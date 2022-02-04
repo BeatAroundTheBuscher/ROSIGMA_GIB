@@ -9,3 +9,19 @@ missionScripts:
     executionOdds: 100
     startDelay: 300
     targetBaseOdds: 100
+
+  - delete: firstMonthTerror
+  - delete: recurringTerror
+  - delete: recurringTerrorHard
+  - delete: recurringGSCTerror
+
+    type: igTerrorMission
+    firstMonth: 0
+    lastMonth: 10
+    missionWeights:
+      # 0 is just for safety
+      0:
+        STR_IG_TERROR_MISSION: 100
+    useTable: false
+    executionOdds: 100
+    startDelay: 1000

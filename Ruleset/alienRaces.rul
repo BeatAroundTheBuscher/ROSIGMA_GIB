@@ -10,3 +10,15 @@ alienRaces:
       - [STR_ORK_BOY]             #5 SOLDIER deploy no weapons
       - [STR_ORK_KILLA]
       - [STR_GRETCHIN]
+
+  - id: STR_IMPERIAL_GUARD
+    retaliationMission: STR_ORK_AIR_PATROL_RETALIATION
+    membersRandom:
+      - [STR_IG_COMMISSAR_LORD]         #0 Commander deploy no weapons
+      - [STR_IG_COMMISSAR]            #1 leader  deploy no weapons
+      - [STR_IG_SCION_MALE, STR_IG_SCION_FEMALE]            #2 Engineer deploy WITH weapons
+      - [STR_IG_PRIEST]            #3 MEDIC deploy WITH weapons
+      - [STR_IG_CARAPACE_MALE, STR_IG_CARAPACE_MALE]          #4 NAVIGATOR deploy no weapons
+      - [STR_IG_FLAK_MALE, STR_IG_FLAK_FEMALE]             #5 SOLDIER deploy no weapons
+      - [STR_IG_SENTINEL_MULTILASER, STR_IG_SENTINEL_LASCANNON, STR_IG_SENTINEL_MISSILELAUNCHER]
+      - [STR_IG_PSYKER_MALE, STR_IG_PSYKER_FEMALE]

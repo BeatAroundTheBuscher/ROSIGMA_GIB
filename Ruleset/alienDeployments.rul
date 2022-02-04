@@ -66,3 +66,12 @@ alienDeployments:
     length: 50
     height: 7
     unlockedResearch: STR_COMPETING_ORK_LEVEL_1_DEFEATED
+
+  - type: STR_TERROR_MISSION    
+    civilians: 0
+    civiliansByType:
+      MALE_CIVILIAN: 0
+      FEMALE_CIVILIAN: 0
+      STR_GUARD_KRIEG: 0
+      STR_HEAVY_GUARDSMAN_MALE: 0
+      STR_HEAVY_GUARDSMAN_FEMALE: 0
