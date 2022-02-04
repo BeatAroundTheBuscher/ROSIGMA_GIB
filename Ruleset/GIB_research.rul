@@ -1,9 +1,3 @@
-extraStrings:
-  - type: en-US
-    strings:
-      STR_ORKZ: "We da Orkz!"
-      STR_ORKZ_UFOPAEDIA: "We da Orkz!"
-
 research:
   - name: STR_ORKZ
     cost: 0
@@ -32,3 +26,35 @@ research:
     dependencies:
       - STR_GENERALLOCK
 
+
+
+  - delete: STR_SLUGGA
+  - delete: STR_AMMO_BIT10
+  - delete: STR_SHOOTA
+  - delete: STR_AMMO_BIT20
+  - delete: STR_BIG_SHOOTA
+  - delete: STR_AMMO_BIT50
+  - delete: STR_ORK_RL
+  - delete: STR_CHOPPA
+  - delete: STR_BIGCHOPPA
+  - delete: STR_ORK_GRENADE
+  - delete: STR_GRETCHIN_BLASTA
+  - delete: STR_GRETCHIN_AMMO_BIT
+
+  - delete: STR_GRETCHIN
+  - delete: STR_GRETCHIN_CORPSE
+  - delete: STR_ORK_BOY
+  - delete: STR_ORKBOY_CORPSE
+  - delete: STR_ORK_ARDBOY
+  - delete: STR_ORKARDBOY_CORPSE
+  - delete: STR_ORK_NOBBOY
+  - delete: STR_ORKNOBBOY_CORPSE
+  - delete: STR_ORK_KILLA
+  - delete: STR_KILLA_CORPSE
+
+  - delete: STR_ORK_MIG_UFO_DATA
+  - delete: STR_ORK_MIG_UFO
+
+  - name: STR_DATASLATE_SCAN
+    getOneFree: !remove
+      - STR_ORK_MIG_UFO

@@ -171,3 +171,22 @@ ufopaedia:
     text: STR_HANGAR_UFOPEDIA
 
 
+## Crafts
+
+  - id: STR_ORK_MIG_INTERCEPTOR
+    type_id: 11
+    section: STR_XCOM_CRAFT_ARMAMENT
+    image_id: ORK_FIGHTA.SPK
+    requires:
+      - STR_ORKZ
+    text: STR_ORK_MIG_UFO_UFOPEDIA
+    listOrder: 300
+
+  - id: STR_ORK_EXPEDITION_PLAYER
+    type_id: 11
+    section: STR_XCOM_CRAFT_ARMAMENT
+    image_id: ORK_CONVOY.SPK
+    requires:
+      - STR_ORKZ
+    text: STR_WAGGON_CONVOY_UFO_UFOPEDIA
+    listOrder: 310
