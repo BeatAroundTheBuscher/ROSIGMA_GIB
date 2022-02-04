@@ -83,14 +83,12 @@ ufopaedia:
 
 ## Armors
 
-  - id: ORK_TURRET_ARMOR
-    type_id: 15
-    requires:
-      - STR_GENERALLOCK
-  - id: ORK_TURRET2_ARMOR
-    type_id: 15
-    requires:
-      - STR_GENERALLOCK
+#  - id: ORK_TURRET_ARMOR
+#    requires:
+#      - STR_GENERALLOCK
+#  - id: ORK_TURRET2_ARMOR
+#    requires:
+#      - STR_GENERALLOCK
   - id: STR_ORK_KILLA_ARMOR #KILLA #    ORK ARMOR
     section: STR_ARMORPEDIA
     requires:
@@ -135,11 +133,11 @@ ufopaedia:
     section: STR_ARMORPEDIA
     requires:
       - STR_ORKZ
-  - id: STR_ORK_ARDEST_ARMOR
-    section: STR_ARMORPEDIA
-    type_id: 15
-    requires:
-      - STR_ORKZ
+#  - id: STR_ORK_ARDEST_ARMOR
+#    section: STR_ARMORPEDIA
+#    type_id: 15
+#    requires:
+#      - STR_ORKZ
   - id: STR_ORK_ARMORKommando #ARMOR
     section: STR_ARMORPEDIA
     requires:
@@ -148,8 +146,8 @@ ufopaedia:
     section: STR_ARMORPEDIA
     requires:
       - STR_ORKZ
-  - id: STR_SQUIG #SQUIG TEST
-    type_id: 15
+#  - id: STR_SQUIG #SQUIG TEST
+#    type_id: 15
   - id: STR_WEIRDORK_ARMOR
     section: STR_ARMORPEDIA
     requires:

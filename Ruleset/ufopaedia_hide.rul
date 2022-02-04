@@ -46,7 +46,7 @@ ufopaedia:
 
   - id: STR_AIRCRAFTPD                   #101 MENU INTRO
     requires:
-      - STR_STR_HIDE_LOCK
+      - STR_HIDE_LOCK
 
   - id: STR_STORMEAGLE                 #600
     requires:
@@ -75,7 +75,7 @@ ufopaedia:
 
   - id: STR_ARVUS                      #211
     requires:
-      - STR_STR_HIDE_LOCK
+      - STR_HIDE_LOCK
 
   - id: STR_VULTURE                    #212
     requires:
@@ -158,7 +158,7 @@ ufopaedia:
 
   - id: STR_AVENGER_ADEPTAS            #510
     requires:
-      - STR_STR_HIDE_LOCK
+      - STR_HIDE_LOCK
 
   - id: STR_THUNDERBOLT_ADEPTAS        #520
     requires:
@@ -331,7 +331,7 @@ ufopaedia:
 
   - id: STR_MECHANICUSPD                   #2000      40k INTRO
     requires:
-      - STR_STR_HIDE_LOCK
+      - STR_HIDE_LOCK
 
   - id: STR_MECHANICUSO                   #2000      40k INTRO
     requires:
@@ -389,7 +389,7 @@ ufopaedia:
 
   - id: STR_PD                             #5001 MENU INTRO
     requires:
-      - STR_STR_HIDE_LOCK
+      - STR_HIDE_LOCK
 
   - id: STR_SCOUT_UC                       #5100  #ARMOR
     requires:
@@ -663,7 +663,7 @@ ufopaedia:
 
   - id: STR_AMMO_OVERPD
     requires:
-      - STR_STR_HIDE_LOCK
+      - STR_HIDE_LOCK
 
 
   - id: STR_AMMOB                          #9200
@@ -677,7 +677,7 @@ ufopaedia:
 
   - id: STR_WEAPONSPD                     #10000 MENU INTRO
     requires:
-      - STR_STR_HIDE_LOCK
+      - STR_HIDE_LOCK
 
 
 
@@ -832,13 +832,13 @@ ufopaedia:
       - STR_WEBBER
   - id: STR_GRENADE                            #13600
     requires:
-      - STR_STR_HIDE_LOCK  
+      - STR_HIDE_LOCK  
   - id: STR_KRAK_GRENADE                            #13650
     requires:
-      - STR_ANTI_ARMOR  
+      - STR_HIDE_LOCK  
   - id: STR_SMOKE_GRENADE                      #13700
     requires:
-      - STR_STR_HIDE_LOCK
+      - STR_HIDE_LOCK
 
   - id: STR_PROXIMITY_GRENADE                  #13800
     requires:
@@ -855,7 +855,7 @@ ufopaedia:
 
   - id: STR_ELECTRO_FLARE                      #14100
     requires:
-      - STR_STR_HIDE_LOCK
+      - STR_HIDE_LOCK
 
   - id: STR_MOTION_SCANNER                     #14200
     requires:
@@ -863,7 +863,7 @@ ufopaedia:
 
   - id: STR_FLAMETHROWER                  #10500
     requires:
-      - STR_FLAMER
+      - STR_HIDE_LOCK
 
   - id: STR_SHOTGUN                       #10600
     requires:
@@ -1258,23 +1258,23 @@ ufopaedia:
   - id: STR_HOTSHOT_VOLLEY_GUN
   - id: STR_STUB_GUN
     requires:
-      - STR_STR_HIDE_LOCK
+      - STR_HIDE_LOCK
   - id: STR_STUB_RIFLE
     requires:
-      - STR_STR_HIDE_LOCK
+      - STR_HIDE_LOCK
   - id: STR_STUB_GUN_AMMO
   - id: STR_AUTOPISTOL
     requires:
-      - STR_STR_HIDE_LOCK
+      - STR_HIDE_LOCK
   - id: STR_AUTOPISTOL_CLIP
   - id: STR_AUTOGUN
     requires:
-      - STR_STR_HIDE_LOCK
+      - STR_HIDE_LOCK
   - id: STR_AUTOGUN_CLIP
   - id: STR_HEAVY_STUBBER
   - id: STR_HEAVY_STUBBER_HANDHELD
     requires:
-      - STR_HEAVY_STUBBER
+      - STR_HIDE_LOCK
   - id: STR_HEAVY_STUBBER_CLIP
   - id: STR_AUTOCANNON_HANDHELD
   - id: STR_AUTOCANNON_GUARD

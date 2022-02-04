@@ -21,6 +21,8 @@ alienMissions:
     points: 0
     objective: 4
     operationType: 1 # possible edge case when destroying base while mission runs?
+    raceWeights:
+      0: {}
     spawnUfo: STR_WAGGON_CONVOY_UFO # Spawned for the final retaliation run
     waves:
       - ufo: STR_DETECTION_UFO # sets retaliationTarget for base
