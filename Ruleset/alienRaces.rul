@@ -8,7 +8,7 @@ alienRaces:
       - [STR_ORK_NOBBOY]            #3 MEDIC deploy WITH weapons
       - [STR_ORK_ARDBOY]          #4 NAVIGATOR deploy no weapons
       - [STR_ORK_BOY]             #5 SOLDIER deploy no weapons
-      - [STR_ORK_KILLA]
+      - [STR_ORK_WARBIKER]
       - [STR_GRETCHIN]
 
   - id: STR_IMPERIAL_GUARD

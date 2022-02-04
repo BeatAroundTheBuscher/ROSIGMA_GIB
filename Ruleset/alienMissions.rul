@@ -17,6 +17,11 @@ alienMissions:
         STR_COMPETING_ORK: 100
     siteType: STR_COMPETING_ORKBASE1
 
+  - type: STR_ORK_BASE_COMPETING_LEVEL2
+    refNode: *STR_SPAWN_COMPETING_ORK_SIGNAL
+    siteType: STR_COMPETING_ORKBASE2
+
+
   - type: STR_ORK_RETALIATION
     points: 0
     objective: 4
