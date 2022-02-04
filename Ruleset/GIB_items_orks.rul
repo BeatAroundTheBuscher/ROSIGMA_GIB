@@ -47,3 +47,7 @@ items:
   # TODO: Change it to painboy stuff
   - type: STR_GUARD_MEDI_KIT
     tuMelee: 0
+
+## Inventory
+
+  - type: STR_HARD_BOY_ARMOR_ITEM

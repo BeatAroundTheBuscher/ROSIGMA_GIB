@@ -2,13 +2,28 @@ armors:
   - type: STR_GROTS_ARMOR # TODO: need new armors to not drop corpses from own units
     weight: 0
     allowsKneeling: false
+    storeItem: STR_NONE
+    units: 
+      - STR_SOLDIER_GRETCHIN
 
   - type: STR_ORK_ARMORL
     allowsKneeling: false
+    storeItem: STR_NONE
+    units: 
+      - STR_SOLDIER_ORK
+
+  - type: STR_ORK_ARMORM
+    allowsKneeling: false
+    storeItem: STR_HARD_BOY_ARMOR_ITEM
+    units: 
+      - STR_SOLDIER_ORK
 
   - type: STR_ORK_ARMOR_MEKBOY
     allowsKneeling: false
     specialWeapon: STR_GUARD_MEDI_KIT
+    storeItem: STR_NONE
+    units: 
+      - STR_SOLDIER_MEKBOY
 
   - type: ORK_TURRET2_ARMOR # TODO: create a new one # also unit and spawner grenade
     spriteSheet: ORKTURRET2_GIB.PCK

@@ -74,3 +74,8 @@ en-US:
 
   STR_ORK_BASE_ASSAULT: "Eliminate Competition"
   STR_ORK_BASE_DESTROYED: "COMPETITION ELIMINATED"
+
+## Armors
+
+  STR_HARD_BOY_ARMOR: "Ork 'ard Boy Armor"
+  STR_HARD_BOY_ARMOR_ITEM: "Manufacture Ork 'Hard Boy Armor"
