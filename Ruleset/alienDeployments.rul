@@ -149,3 +149,4 @@ alienDeployments:
       STR_GUARD_KRIEG: 0
       STR_HEAVY_GUARDSMAN_MALE: 0
       STR_HEAVY_GUARDSMAN_FEMALE: 0
+    duration: [120, 240] # was [4, 10]
