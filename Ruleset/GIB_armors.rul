@@ -25,6 +25,13 @@ armors:
     units: 
       - STR_SOLDIER_MEKBOY
 
+  - type: STR_ORK_BIKE_ARMOR
+    storeItem: STR_ORK_BIKE_ARMOR_ITEM
+    units: 
+      - STR_SOLDIER_ORK
+      - STR_SOLDIER_MEKBOY
+
+
   - type: ORK_TURRET2_ARMOR # TODO: create a new one # also unit and spawner grenade
     spriteSheet: ORKTURRET2_GIB.PCK
 

@@ -8,3 +8,13 @@ manufacture:
     cost: 10000
     requiredItems:
       STR_ALIEN_ALLOYS: 10
+
+  - name: STR_ORK_BIKE_ARMOR_ITEM
+    category: STR_PERSONAL_ARMOR
+    requires:
+      - STR_HARD_BOY_ARMOR
+    space: 5
+    time: 400
+    cost: 50000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 50

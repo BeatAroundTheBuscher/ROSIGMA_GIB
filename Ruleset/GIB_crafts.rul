@@ -24,7 +24,7 @@
     repairRate: 4
 
     soldiers: 14
-    vehicles: 1
+    vehicles: 2
     battlescapeTerrainData:
       name: ORK_CONVOY_GIB
       mapDataSets:
@@ -39,25 +39,26 @@
           height: 4
           items:
             STR_TURRET2_PLAYER_SPAWNER:
-              - [5, 12, 2]
+              - [5, 13, 2]
           fuseTimers:
             STR_TURRET2_PLAYER_SPAWNER: [0, 0]
     deployment:
-      - [5, 12, 1, 0]
-      - [6, 12, 1, 0]
-      - [5, 13, 1, 0]
-      - [6, 13, 1, 0]
-      - [3, 1, 1, 0]
-      - [4, 1, 1, 0]
-      - [3, 2, 1, 0]
-      - [4, 2, 1, 0]
+
       - [3, 3, 1, 0]
       - [4, 3, 1, 0]
       - [3, 4, 1, 0]
       - [4, 4, 1, 0]
+      - [5, 13, 1, 0]
+      - [6, 13, 1, 0]
       - [5, 14, 1, 0]
       - [6, 14, 1, 0]
-    craftInventoryTile: [5, 14, 1]
+      - [3, 5, 1, 0]
+      - [4, 5, 1, 0]
+      - [3, 6, 1, 0]
+      - [4, 6, 1, 0]
+      - [5, 15, 1, 0]
+      - [6, 15, 1, 0]
+    craftInventoryTile: [5, 15, 1]
     listOrder: 9999
     spacecraft: true
 

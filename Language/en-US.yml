@@ -78,7 +78,10 @@ en-US:
 ## Armors
 
   STR_HARD_BOY_ARMOR: "Ork 'ard Boy Armor"
-  STR_HARD_BOY_ARMOR_ITEM: "Manufacture Ork 'Hard Boy Armor"
+  STR_HARD_BOY_ARMOR_ITEM: "Ork 'ard Boy Armor"
+
+  STR_ORK_BIKE_ARMOR: "Ork Bike"
+  STR_ORK_BIKE_ARMOR_ITEM: "Ork Bike"
 
 ## Races
 

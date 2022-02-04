@@ -9,13 +9,6 @@ research:
     unlocks:
       - STR_SCIENTISTS_AND_ENGINEERS_AVAILABLE
 
-  - name: STR_ORKZ_DUMMY_RESEARCH
-    cost: 1000000
-    points: 0
-    dependencies:
-      - STR_ORKZ
-
-
   - name: STR_NOT_AVAILABLE
     cost: 0
     points: 0
@@ -28,7 +21,19 @@ research:
     unlocks: 
       - STR_HARD_BOY_ARMOR
 
+  - name: STR_COMPETING_ORK_LEVEL_2_DEFEATED
+    dependencies:
+      - STR_GENERALLOCK
+    unlocks:
+      - STR_WARBIKER_ARMOR
+
   - name: STR_HARD_BOY_ARMOR
+    dependencies: 
+      - STR_GENERALLOCK
+    cost: 200
+    points: 50
+
+  - name: STR_WARBIKER_ARMOR
     dependencies: 
       - STR_GENERALLOCK
     cost: 200

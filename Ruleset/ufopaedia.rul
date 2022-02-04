@@ -80,6 +80,9 @@ ufopaedia:
     requires:
       - STR_ORKZ
 
+  - id: STR_ORK_KILLA_WEAPON
+    type_id: 14
+    section: STR_NOT_AVAILABLE
 
 ## Armors
 

@@ -51,6 +51,7 @@ items:
 ## Inventory
 
   - type: STR_HARD_BOY_ARMOR_ITEM
+  - type: STR_ORK_BIKE_ARMOR_ITEM
 
 ## Special Items
 
