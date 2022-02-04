@@ -84,17 +84,38 @@ en-US:
 
   STR_COMPETING_ORKBASE1: "Competing Orks"
   STR_IMPERIAL_GUARD: "Imperial Guard"
+  STR_IMPERIAL_GUARD_FLAK: "Imperial Guard"
+  STR_IMPERIAL_GUARD_CARAPACE: "Imperial Guard"
+  STR_IMPERIAL_GUARD_MIXED: "Imperial Guard"
 
 ## Units
 
+  STR_IG_COMMISSAR_LORD: "Lord Commissar"
+  STR_IG_COMMISSAR: "Commissar"
+  STR_IG_COMMISSAR_CARAPACE: "Commissar"
+
   STR_IG_FLAK_MALE: "Guardsman"
   STR_IG_FLAK_FEMALE: "Guardsman"
+  STR_IG_FLAK_OFFICER_MALE: "Guardsman Officer"
+  STR_IG_FLAK_OFFICER_FEMALE: "Guardsman Officer"
+  STR_IG_FLAK_MEDIC_MALE: "Guardsman Medic"
+  STR_IG_FLAK_MEDIC_FEMALE: "Guardsman Medic"
+  STR_IG_FLAK_HEAVY_MALE: "Guardsman"
+  STR_IG_FLAK_HEAVY_FEMALE: "Guardsman"
+
   STR_IG_CARAPACE_MALE: "Guardsman"
   STR_IG_CARAPACE_FEMALE: "Guardsman"
+  STR_IG_CARAPACE_OFFICER_MALE: "Guardsman Officer"
+  STR_IG_CARAPACE_OFFICER_FEMALE: "Guardsman Officer"
+  STR_IG_CARAPACE_MEDIC_MALE: "Guardsman Medic"
+  STR_IG_CARAPACE_MEDIC_FEMALE: "Guardsman Medic"
+  STR_IG_CARAPACE_HEAVY_MALE: "Guardsman"
+  STR_IG_CARAPACE_HEAVY_FEMALE: "Guardsman"
+
   STR_IG_PRIEST: "Priest"
   STR_IG_SCION_MALE: "Scion"
   STR_IG_SCION_FEMALE: "Scion"
-  STR_IG_COMMISSAR: "Commissar"
+
   STR_IG_SENTINEL_MISSILELAUNCHER: "Sentinel/Missile Launcher"
   STR_IG_SENTINEL_MULTILASER: "Sentinel/Multilaser"
   STR_IG_SENTINEL_LASCANNON: "Sentinel/Lascannon"

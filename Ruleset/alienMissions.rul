@@ -42,9 +42,9 @@ alienMissions:
     spawnZone: 3
     raceWeights:
       0:
-        STR_IMPERIAL_GUARD: 100
+        STR_IMPERIAL_GUARD_FLAK: 100
     waves:
-      - ufo: STR_TERROR_MISSIOn # spawn this site directly
+      - ufo: STR_TERROR_MISSION # spawn this site directly
         count: 1
         trajectory: P10
         timer: 0

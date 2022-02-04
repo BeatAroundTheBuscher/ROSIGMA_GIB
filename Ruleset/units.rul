@@ -38,7 +38,8 @@ units:
         - STR_KRAK_GRENADE
         - STR_PHOSPHOR_GRENADE
 
-  - type: STR_IG_COMMISSAR
+  - &STR_IG_COMMISSAR
+    type: STR_IG_COMMISSAR
     race: STR_IMPERIAL_GUARD
     rank: STR_LIVE_LEADER
     stats: # balance later
@@ -79,6 +80,10 @@ units:
         - STR_CHAINSWORD_GUARD
         - STR_KRAK_GRENADE
         - STR_PHOSPHOR_GRENADE
+
+  - type: STR_IG_COMMISSAR_CARAPACE
+    refNode: *STR_IG_COMMISSAR
+    armor: STR_COMMISSAR_CARAPACE_UC
 
   - &STR_IG_SCION
     type: STR_IG_SCION_MALE
@@ -187,6 +192,45 @@ units:
     aggression: 1
     energyRecovery: 40
     builtInWeaponSets:
+      - - STR_FLAMETHROWER
+        - STR_FLAMETHROWER_CLIP
+        - STR_FLAMETHROWER_CLIP
+        - STR_GRENADE
+        - STR_KRAK_GRENADE
+      - - STR_LASER_RIFLEG
+        - STR_LASGUN_CLIP
+        - STR_LASGUN_CLIP
+        - STR_GRENADE
+        - STR_KRAK_GRENADE
+      - - STR_PLASMA_RIFLE_TERRAN
+        - STR_PLASMA_RIFLE_CLIP
+        - STR_PLASMA_RIFLE_CLIP
+        - STR_KRAK_GRENADE
+        - STR_PHOSPHOR_GRENADE
+
+  - type: STR_IG_CARAPACE_FEMALE
+    refNode: *STR_IG_CARAPACE
+    armors: STR_HEAVY_GUARDSMAN_FEMALE
+
+  - type: STR_IG_CARAPACE_OFFICER_MALE
+    refNode: *STR_IG_CARAPACE
+    armor: STR_OFFICER_CARAPACE_ARMOR
+
+  - type: STR_IG_CARAPACE_OFFICER_FEMALE
+    refNode: *STR_IG_CARAPACE
+    armor: STR_OFFICER_CARAPACE_ARMOR
+
+  - type: STR_IG_CARAPACE_MEDIC_MALE
+    refNode: *STR_IG_CARAPACE
+    armor: STR_MEDIC_CARAPACE_ARMOR
+
+  - type: STR_IG_CARAPACE_MEDIC_FEMALE
+    refNode: *STR_IG_CARAPACE
+    armor: STR_MEDIC_CARAPACE_ARMOR
+
+  - type: STR_IG_CARAPACE_HEAVY_MALE
+    refNode: *STR_IG_CARAPACE
+    builtInWeaponSets:
       - - STR_ROCKET_LAUNCHER
         - STR_SMALL_ROCKET
         - STR_SMALL_ROCKET
@@ -199,10 +243,21 @@ units:
         - STR_KRAK_GRENADE_DRUM
         - STR_KRAK_GRENADE_DRUM
 
-
-  - type: STR_IG_CARAPACE_FEMALE
+  - type: STR_IG_CARAPACE_HEAVY_FEMALE
     refNode: *STR_IG_CARAPACE
-    armors: STR_HEAVY_GUARDSMAN_FEMALE
+    builtInWeaponSets:
+      - - STR_ROCKET_LAUNCHER
+        - STR_SMALL_ROCKET
+        - STR_SMALL_ROCKET
+        - STR_SMALL_ROCKET
+        - STR_SMALL_ROCKET
+      - - STR_GRENADE_LAUNCHER
+        - STR_FRAG_GRENADE_DRUM
+        - STR_FRAG_GRENADE_DRUM
+      - - STR_GRENADE_LAUNCHER
+        - STR_KRAK_GRENADE_DRUM
+        - STR_KRAK_GRENADE_DRUM
+
 
   - &STR_IG_FLAK
     type: STR_IG_FLAK_MALE
@@ -233,23 +288,67 @@ units:
         - STR_AUTOGUN_CLIP
         - STR_AUTOGUN_CLIP
         - STR_GRENADE
-#        - STR_UNIT_TURNER_FT1
       - - STR_FLAMETHROWER
         - STR_FLAMETHROWER_CLIP
         - STR_FLAMETHROWER_CLIP
         - STR_GRENADE
         - STR_KRAK_GRENADE
-#        - STR_UNIT_TURNER_FT1
       - - STR_LASER_RIFLEG
         - STR_LASGUN_CLIP
         - STR_LASGUN_CLIP
         - STR_GRENADE
         - STR_KRAK_GRENADE
-#        - STR_UNIT_TURNER_FT1
+
 
   - type: STR_IG_FLAK_FEMALE
     refNode: *STR_IG_FLAK
     armor: GUARD_ARMOROF
+
+  - type: STR_IG_FLAK_OFFICER_MALE
+    refNode: *STR_IG_FLAK
+    armor: STR_OFFICER_FLAK_ARMOR
+
+  - type: STR_IG_FLAK_OFFICER_FEMALE
+    refNode: *STR_IG_FLAK
+    armor: STR_OFFICER_FLAK_ARMOR
+
+  - type: STR_IG_FLAK_MEDIC_MALE
+    refNode: *STR_IG_FLAK
+    armor: STR_GUARD_ARMORS_MEDIC_UC
+
+  - type: STR_IG_FLAK_MEDIC_FEMALE
+    refNode: *STR_IG_FLAK
+    armor: STR_GUARD_ARMORS_MEDIC_UC
+
+  - type: STR_IG_FLAK_HEAVY_MALE
+    refNode: *STR_IG_FLAK
+    builtInWeaponSets:
+      - - STR_ROCKET_LAUNCHER
+        - STR_SMALL_ROCKET
+        - STR_SMALL_ROCKET
+        - STR_SMALL_ROCKET
+        - STR_SMALL_ROCKET
+      - - STR_GRENADE_LAUNCHER
+        - STR_FRAG_GRENADE_DRUM
+        - STR_FRAG_GRENADE_DRUM
+      - - STR_GRENADE_LAUNCHER
+        - STR_KRAK_GRENADE_DRUM
+        - STR_KRAK_GRENADE_DRUM
+
+  - type: STR_IG_FLAK_HEAVY_FEMALE
+    refNode: *STR_IG_FLAK
+    builtInWeaponSets:
+      - - STR_ROCKET_LAUNCHER
+        - STR_SMALL_ROCKET
+        - STR_SMALL_ROCKET
+        - STR_SMALL_ROCKET
+        - STR_SMALL_ROCKET
+      - - STR_GRENADE_LAUNCHER
+        - STR_FRAG_GRENADE_DRUM
+        - STR_FRAG_GRENADE_DRUM
+      - - STR_GRENADE_LAUNCHER
+        - STR_KRAK_GRENADE_DRUM
+        - STR_KRAK_GRENADE_DRUM
 
   - &STR_IG_NORMAL_SENTINEL
     type: STR_IG_SENTINEL_MULTILASER
