@@ -2,7 +2,7 @@ extraSprites:
   - type: INTICON.PCK 
     files:
       200: Resources/Crafts/ork_convoy_minimised.png # + 11 # + 33 
-      201: Resources/Crafts/ork_mig_minimised.png
+      201: Resources/Crafts/ork_mig_minimised.png # based on UNEXCOM TUNNAN
 
       211: Resources/Crafts/ork_convoy_dogfight.png  
       212: Resources/Crafts/ork_mig_dogfight.png  
