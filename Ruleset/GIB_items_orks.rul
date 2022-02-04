@@ -51,3 +51,11 @@ items:
 ## Inventory
 
   - type: STR_HARD_BOY_ARMOR_ITEM
+
+## Special Items
+
+  - type: STR_CHIMERA_PDF_TURRET_SPAWNER
+    spawnUnitFaction: 1
+
+  - type: STR_MUNITORIUM_SPAWNER
+    spawnUnitFaction: 1

@@ -27,3 +27,7 @@ armors:
 
   - type: ORK_TURRET2_ARMOR # TODO: create a new one # also unit and spawner grenade
     spriteSheet: ORKTURRET2_GIB.PCK
+
+  - type: STR_SCION_CARAPACE_ARMOR
+    tags:
+      ARMOR_BUILTIN_WEAPON_VARIANT: 1
