@@ -1,5 +1,5 @@
 armors:
-  - type: STR_GROTS_ARMOR
+  - type: STR_GROTS_ARMOR # TODO: need new armors to not drop corpses from own units
     weight: 0
     allowsKneeling: false
 
