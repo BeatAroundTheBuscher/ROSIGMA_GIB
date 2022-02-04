@@ -24,4 +24,5 @@ missionScripts:
         STR_IG_TERROR_MISSION: 100
     useTable: false
     executionOdds: 100
-    startDelay: 1000
+    startDelay: 14400
+    randomDelay: 14400

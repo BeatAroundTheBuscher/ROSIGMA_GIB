@@ -2,23 +2,23 @@ units:
   - type: STR_IG_COMMISSAR_LORD
     race: STR_IMPERIAL_GUARD
     rank: STR_LIVE_COMMANDER
-    stats: # balance later
-      tu: 60
-      stamina: 56
-      health: 40
-      bravery: 40
-      reactions: 45
-      firing: 44
-      throwing: 30
-      strength: 30
-      psiStrength: 10
+    stats: 
+      tu: 90
+      stamina: 100
+      health: 50
+      bravery: 110
+      reactions: 60
+      firing: 80
+      throwing: 70
+      strength: 90
+      psiStrength: 100
       psiSkill: 0
-      melee: 70
+      melee: 100
     armor: STR_COMMISSAR_CLAW_UC
     standHeight: 22
     kneelHeight: 14
-    value: 5
-    deathSound: [919, 920]
+    value: 50
+    deathSound: [{mod: 40k, index: 116}, {mod: 40k, index: 117}, {mod: 40k, index: 118}, {mod: 40k, index: 119}]
     intelligence: 6
     aggression: 1
     energyRecovery: 40
@@ -43,22 +43,22 @@ units:
     race: STR_IMPERIAL_GUARD
     rank: STR_LIVE_LEADER
     stats: # balance later
-      tu: 60
-      stamina: 56
+      tu: 80
+      stamina: 80
       health: 40
-      bravery: 40
-      reactions: 45
-      firing: 44
-      throwing: 30
-      strength: 30
-      psiStrength: 10
+      bravery: 110
+      reactions: 60
+      firing: 80
+      throwing: 60
+      strength: 60
+      psiStrength: 100
       psiSkill: 0
-      melee: 70
+      melee: 90
     armor: STR_COMMISSAR_UC
     standHeight: 22
     kneelHeight: 14
-    value: 5
-    deathSound: [919, 920]
+    value: 30
+    deathSound: [{mod: 40k, index: 116}, {mod: 40k, index: 117}, {mod: 40k, index: 118}, {mod: 40k, index: 119}]
     intelligence: 6
     aggression: 1
     energyRecovery: 40
@@ -90,22 +90,22 @@ units:
     race: STR_IMPERIAL_GUARD
     rank: STR_LIVE_LEADER
     stats: # balance later
-      tu: 60
-      stamina: 56
+      tu: 70
+      stamina: 80
       health: 40
-      bravery: 40
-      reactions: 45
-      firing: 44
-      throwing: 30
-      strength: 30
-      psiStrength: 10
+      bravery: 80
+      reactions: 50
+      firing: 80
+      throwing: 50
+      strength: 50
+      psiStrength: 100
       psiSkill: 0
-      melee: 70
+      melee: 80
     armor: STR_SCION_CARAPACE_ARMOR
     standHeight: 22
     kneelHeight: 14
-    value: 5
-    deathSound: [919, 920]
+    value: 30
+    deathSound: [41, 42, 43]
     intelligence: 6
     aggression: 1
     energyRecovery: 40
@@ -124,27 +124,28 @@ units:
 
   - type: STR_IG_SCION_FEMALE
     refNode: *STR_IG_SCION
+    deathSound: [44, 45, 46]
 
   - type: STR_IG_PRIEST
     race: STR_IMPERIAL_GUARD
     rank: STR_LIVE_LEADER
     stats: # balance later
-      tu: 60
-      stamina: 56
-      health: 40
-      bravery: 40
-      reactions: 45
-      firing: 44
-      throwing: 30
-      strength: 30
-      psiStrength: 10
+      tu: 90
+      stamina: 100
+      health: 50
+      bravery: 110
+      reactions: 60
+      firing: 40
+      throwing: 40
+      strength: 60
+      psiStrength: 100
       psiSkill: 0
-      melee: 70
+      melee: 150
     armor: STR_GUARD_ARMORS_PRIEST_UC
     standHeight: 22
     kneelHeight: 14
-    value: 5
-    deathSound: [919, 920]
+    value: 30
+    deathSound: [41, 42, 43]
     intelligence: 6
     aggression: 1
     energyRecovery: 40
@@ -172,22 +173,22 @@ units:
     race: STR_IMPERIAL_GUARD
     rank: STR_LIVE_SOLDIER
     stats: # balance later
-      tu: 60
-      stamina: 56
+      tu: 75
+      stamina: 80
       health: 40
-      bravery: 40
-      reactions: 45
-      firing: 44
-      throwing: 30
-      strength: 30
-      psiStrength: 10
+      bravery: 70
+      reactions: 50
+      firing: 70
+      throwing: 50
+      strength: 50
+      psiStrength: 100
       psiSkill: 0
       melee: 70
     armor: STR_HEAVY_GUARDSMAN_MALE
     standHeight: 22
     kneelHeight: 14
-    value: 5
-    deathSound: [919, 920]
+    value: 20
+    deathSound: [41, 42, 43]
     intelligence: 6
     aggression: 1
     energyRecovery: 40
@@ -211,6 +212,7 @@ units:
   - type: STR_IG_CARAPACE_FEMALE
     refNode: *STR_IG_CARAPACE
     armors: STR_HEAVY_GUARDSMAN_FEMALE
+    deathSound: [44, 45, 46]
 
   - type: STR_IG_CARAPACE_OFFICER_MALE
     refNode: *STR_IG_CARAPACE
@@ -219,6 +221,7 @@ units:
   - type: STR_IG_CARAPACE_OFFICER_FEMALE
     refNode: *STR_IG_CARAPACE
     armor: STR_OFFICER_CARAPACE_ARMOR
+    deathSound: [44, 45, 46]
 
   - type: STR_IG_CARAPACE_MEDIC_MALE
     refNode: *STR_IG_CARAPACE
@@ -227,6 +230,7 @@ units:
   - type: STR_IG_CARAPACE_MEDIC_FEMALE
     refNode: *STR_IG_CARAPACE
     armor: STR_MEDIC_CARAPACE_ARMOR
+    deathSound: [44, 45, 46]
 
   - type: STR_IG_CARAPACE_HEAVY_MALE
     refNode: *STR_IG_CARAPACE
@@ -245,6 +249,7 @@ units:
 
   - type: STR_IG_CARAPACE_HEAVY_FEMALE
     refNode: *STR_IG_CARAPACE
+    deathSound: [44, 45, 46]
     builtInWeaponSets:
       - - STR_ROCKET_LAUNCHER
         - STR_SMALL_ROCKET
@@ -265,21 +270,21 @@ units:
     rank: STR_LIVE_SOLDIER
     stats: # balance later
       tu: 60
-      stamina: 56
-      health: 40
-      bravery: 40
-      reactions: 45
-      firing: 44
-      throwing: 30
-      strength: 30
-      psiStrength: 10
+      stamina: 70
+      health: 30
+      bravery: 60
+      reactions: 40
+      firing: 60
+      throwing: 40
+      strength: 40
+      psiStrength: 100
       psiSkill: 0
-      melee: 70
+      melee: 40
     armor: GUARD_ARMOR
     standHeight: 22
     kneelHeight: 14
-    value: 5
-    deathSound: [919, 920]
+    value: 10
+    deathSound: [41, 42, 43]
     intelligence: 6
     aggression: 1
     energyRecovery: 40
@@ -303,6 +308,7 @@ units:
   - type: STR_IG_FLAK_FEMALE
     refNode: *STR_IG_FLAK
     armor: GUARD_ARMOROF
+    deathSound: [44, 45, 46]
 
   - type: STR_IG_FLAK_OFFICER_MALE
     refNode: *STR_IG_FLAK
@@ -311,6 +317,7 @@ units:
   - type: STR_IG_FLAK_OFFICER_FEMALE
     refNode: *STR_IG_FLAK
     armor: STR_OFFICER_FLAK_ARMOR
+    deathSound: [44, 45, 46]
 
   - type: STR_IG_FLAK_MEDIC_MALE
     refNode: *STR_IG_FLAK
@@ -319,6 +326,7 @@ units:
   - type: STR_IG_FLAK_MEDIC_FEMALE
     refNode: *STR_IG_FLAK
     armor: STR_GUARD_ARMORS_MEDIC_UC
+    deathSound: [44, 45, 46]
 
   - type: STR_IG_FLAK_HEAVY_MALE
     refNode: *STR_IG_FLAK
@@ -337,6 +345,7 @@ units:
 
   - type: STR_IG_FLAK_HEAVY_FEMALE
     refNode: *STR_IG_FLAK
+    deathSound: [44, 45, 46]
     builtInWeaponSets:
       - - STR_ROCKET_LAUNCHER
         - STR_SMALL_ROCKET
@@ -355,22 +364,22 @@ units:
     race: STR_IMPERIAL_GUARD
     rank: STR_LIVE_SOLDIER
     stats: # balance later
-      tu: 60
-      stamina: 56
-      health: 40
-      bravery: 40
-      reactions: 45
-      firing: 44
-      throwing: 30
-      strength: 30
-      psiStrength: 10
+      tu: 60 # + 20 from armor
+      stamina: 80 # + 20 from armor
+      health: 30 # + 50 from armor
+      bravery: 90
+      reactions: 40
+      firing: 80
+      throwing: 40
+      strength: 40
+      psiStrength: 100
       psiSkill: 0
-      melee: 70
+      melee: 100 # doesn't matter, flat rate
     armor: STR_GUARD_ARMORS_SENTINEL_MULTILASER_UC
     standHeight: 22
     kneelHeight: 14
-    value: 5
-    deathSound: [919, 920]
+    value: 50
+    deathSound: 23
     intelligence: 6
     aggression: 1
     energyRecovery: 40
@@ -396,21 +405,21 @@ units:
     rank: STR_LIVE_SOLDIER
     stats: # balance later
       tu: 60
-      stamina: 56
-      health: 40
-      bravery: 40
-      reactions: 45
-      firing: 44
-      throwing: 30
-      strength: 30
-      psiStrength: 10
+      stamina: 60
+      health: 30
+      bravery: 110
+      reactions: 50
+      firing: 50
+      throwing: 50
+      strength: 50
+      psiStrength: 100
       psiSkill: 0
-      melee: 70
+      melee: 80
     armor: STR_PSYKER_ARMOR
     standHeight: 22
     kneelHeight: 14
-    value: 5
-    deathSound: [919, 920]
+    value: 30
+    deathSound: [{mod: 40k, index: 1071}, {mod: 40k, index: 1072}, {mod: 40k, index: 1073}, {mod: 40k, index: 1074}, {mod: 40k, index: 1075}]
     intelligence: 6
     aggression: 1
     energyRecovery: 40
@@ -433,3 +442,9 @@ units:
   - type: STR_IG_PSYKER_FEMALE
     refNode: *STR_IG_PSYKER
     armor: STR_PSYKER_ARMOR
+    deathSound: [{mod: 40k, index: 1046}, {mod: 40k, index: 1047}, {mod: 40k, index: 1048}, {mod: 40k, index: 1049}, {mod: 40k, index: 1050}]
+
+
+armors:
+  - type: SERVITOR_ARMOR_UC
+    bleedImmune: true
