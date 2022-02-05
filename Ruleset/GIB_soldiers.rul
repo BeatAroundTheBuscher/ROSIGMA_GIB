@@ -141,8 +141,8 @@ soldiers:
       firing: 25
     allowPiloting: true
     armor: STR_GROTS_ARMOR
-    standHeight: 22
-    kneelHeight: 14
+    standHeight: 16
+    kneelHeight: 12
     femaleFrequency: 0
     avatarOffsetX: 67
     avatarOffsetY: 42
