@@ -141,7 +141,7 @@ alienDeployments:
     height: 7
     unlockedResearch: STR_COMPETING_ORK_LEVEL_1_DEFEATED
 
-  - type: STR_TERROR_MISSION    
+  - type: STR_TERROR_MISSION
     civilians: 0
     civiliansByType:
       MALE_CIVILIAN: 0

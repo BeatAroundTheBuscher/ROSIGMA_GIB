@@ -1,4 +1,4 @@
-soldiers:  
+soldiers:
   - &STR_ORK
     type: STR_SOLDIER_ORK # wild range
     costBuy: 60000

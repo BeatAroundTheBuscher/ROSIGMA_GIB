@@ -2,7 +2,7 @@ units:
   - type: STR_IG_COMMISSAR_LORD
     race: STR_IMPERIAL_GUARD
     rank: STR_LIVE_COMMANDER
-    stats: 
+    stats:
       tu: 90
       stamina: 100
       health: 50

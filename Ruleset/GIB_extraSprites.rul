@@ -1,16 +1,16 @@
 extraSprites:
-  - type: INTICON.PCK 
+  - type: INTICON.PCK
     files:
-      200: Resources/Crafts/ork_convoy_minimised.png # + 11 # + 33 
+      200: Resources/Crafts/ork_convoy_minimised.png # + 11 # + 33
       201: Resources/Crafts/ork_mig_minimised.png # based on UNEXCOM TUNNAN
 
-      211: Resources/Crafts/ork_convoy_dogfight.png  
-      212: Resources/Crafts/ork_mig_dogfight.png  
+      211: Resources/Crafts/ork_convoy_dogfight.png
+      212: Resources/Crafts/ork_mig_dogfight.png
 
   - type: BASEBITS.PCK
     files:
-      233: Resources/Crafts/ork_convoy_base.png 
-      234: Resources/Crafts/ork_mig_base.png 
+      233: Resources/Crafts/ork_convoy_base.png
+      234: Resources/Crafts/ork_mig_base.png
 
   - type: GlobeMarkers
     width: 252
@@ -21,7 +21,7 @@ extraSprites:
       9: Resources/Geo/globe_ufo_new.png
 
 
-  - type: BASEBITS.PCK 
+  - type: BASEBITS.PCK
     files:
       63: Resources/Basebits/Outpost/outpost_hangar_orks_01.png # Etty
       64: Resources/Basebits/Outpost/outpost_hangar_orks_02.png

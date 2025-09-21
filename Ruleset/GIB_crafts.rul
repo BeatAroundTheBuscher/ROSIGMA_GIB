@@ -1,4 +1,4 @@
- crafts:
+crafts:
   - type: STR_ORK_EXPEDITION_PLAYER
     marker: 30
     requires:
@@ -10,8 +10,8 @@
     maxAltitude: 1
     accel: 2
     weapons: 1
-    weaponTypes:        
-      - 0                              
+    weaponTypes:
+      - 0
     weaponStrings:
       - STR_WEAPON_ONE
     fixedWeapons: ["STR_CANNON_UC"]

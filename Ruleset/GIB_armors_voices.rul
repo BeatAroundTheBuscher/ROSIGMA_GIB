@@ -1,36 +1,36 @@
 armors:
   - type: STR_GROTS_ARMOR
-    selectUnitMale:     [100, 101, 102, 103, 104]
-    selectUnitFemale:   [100, 101, 102, 103, 104]
-    startMovingMale:    [105, 106, 107, 108, 109]
-    startMovingFemale:  [105, 106, 107, 108, 109]
-    selectWeaponMale:   [110, 111, 112, 113, 114]
-    selectWeaponFemale: [110, 111, 112, 113, 114]
-    annoyedMale:        [115, 116, 117]
-    annoyedFemale:      [115, 116, 117]
+    selectUnitMale:     [100, 101, 102, 103, 104]  # yamllint disable-line rule:colons
+    selectUnitFemale:   [100, 101, 102, 103, 104]  # yamllint disable-line rule:colons
+    startMovingMale:    [105, 106, 107, 108, 109]  # yamllint disable-line rule:colons
+    startMovingFemale:  [105, 106, 107, 108, 109]  # yamllint disable-line rule:colons
+    selectWeaponMale:   [110, 111, 112, 113, 114]  # yamllint disable-line rule:colons
+    selectWeaponFemale: [110, 111, 112, 113, 114]  # yamllint disable-line rule:colons
+    annoyedMale:        [115, 116, 117]  # yamllint disable-line rule:colons
+    annoyedFemale:      [115, 116, 117]  # yamllint disable-line rule:colons
 
   - &STR_ORK_ARMOR
     type: STR_ORK_ARMORL
-    selectUnitMale:     [120, 121, 122, 123, 124]
-    selectUnitFemale:   [120, 121, 122, 123, 124]
-    startMovingMale:    [125, 126, 127, 128, 129]
-    startMovingFemale:  [125, 126, 127, 128, 129]
-    selectWeaponMale:   [130, 131, 132, 133, 134]
-    selectWeaponFemale: [130, 131, 132, 133, 134]
-    annoyedMale:        [135, 136, 137, 138, 139]
-    annoyedFemale:      [135, 136, 137, 138, 139]
+    selectUnitMale:     [120, 121, 122, 123, 124]  # yamllint disable-line rule:colons
+    selectUnitFemale:   [120, 121, 122, 123, 124]  # yamllint disable-line rule:colons
+    startMovingMale:    [125, 126, 127, 128, 129]  # yamllint disable-line rule:colons
+    startMovingFemale:  [125, 126, 127, 128, 129]  # yamllint disable-line rule:colons
+    selectWeaponMale:   [130, 131, 132, 133, 134]  # yamllint disable-line rule:colons
+    selectWeaponFemale: [130, 131, 132, 133, 134]  # yamllint disable-line rule:colons
+    annoyedMale:        [135, 136, 137, 138, 139]  # yamllint disable-line rule:colons
+    annoyedFemale:      [135, 136, 137, 138, 139]  # yamllint disable-line rule:colons
 
   - type: STR_ORK_ARMOR_MEKBOY
     refNode: *STR_ORK_ARMOR
 
   - &STR_ORK_TURRET
     type: ORK_TURRET_ARMOR
-    selectUnitMale:     [140, 141]
-    selectUnitFemale:   [140, 141]
+    selectUnitMale:     [140, 141]  # yamllint disable-line rule:colons
+    selectUnitFemale:   [140, 141]  # yamllint disable-line rule:colons
 #    startMovingMale:    [125, 126, 127, 128, 129]
 #    startMovingFemale:  [125, 126, 127, 128, 129]
-    selectWeaponMale:   [150, 151, 152]
-    selectWeaponFemale: [150, 151, 152]
+    selectWeaponMale:   [150, 151, 152]  # yamllint disable-line rule:colons
+    selectWeaponFemale: [150, 151, 152]  # yamllint disable-line rule:colons
 #    annoyedMale:        [135, 136, 137, 138, 139]
 #    annoyedFemale:      [135, 136, 137, 138, 139]
 

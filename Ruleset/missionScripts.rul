@@ -27,7 +27,7 @@ missionScripts:
   - delete: recurringTerrorHard
   - delete: recurringGSCTerror
 
-    type: igTerrorMission
+  - type: igTerrorMission
     firstMonth: 0
     lastMonth: 10
     missionWeights:

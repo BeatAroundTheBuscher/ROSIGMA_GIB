@@ -3,44 +3,40 @@ armors:
     weight: 0
     allowsKneeling: false
     storeItem: STR_NONE
-    units: 
+    units:
       - STR_SOLDIER_GRETCHIN
 
   - type: STR_ORK_ARMORL
     allowsKneeling: false
     storeItem: STR_NONE
-    units: 
+    units:
       - STR_SOLDIER_ORK
     recovery:
-     energy: 
       energyRegen: 2.0
 
   - type: STR_ORK_ARMORM
     allowsKneeling: false
     storeItem: STR_HARD_BOY_ARMOR_ITEM
-    units: 
+    units:
       - STR_SOLDIER_ORK
     recovery:
-     energy: 
       energyRegen: 2.0
 
   - type: STR_ORK_ARMOR_MEKBOY
     allowsKneeling: false
     specialWeapon: STR_GUARD_MEDI_KIT
     storeItem: STR_NONE
-    units: 
+    units:
       - STR_SOLDIER_MEKBOY
     recovery:
-     energy: 
       energyRegen: 2.0
 
   - type: STR_ORK_BIKE_ARMOR
     storeItem: STR_ORK_BIKE_ARMOR_ITEM
-    units: 
+    units:
       - STR_SOLDIER_ORK
       - STR_SOLDIER_MEKBOY
     recovery:
-     energy: 
       energyRegen: 2.0
 
 

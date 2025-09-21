@@ -108,7 +108,7 @@ items:
       - STR_NOT_AVAILABLE
 
   - type: STR_HEAVY_STUBBER_CLIP
-    requiresBuy: 
+    requiresBuy:
       - STR_NOT_AVAILABLE
 
   - type: STR_HEAVY_CANNON
@@ -133,7 +133,7 @@ items:
     requiresBuy:
       - STR_NOT_AVAILABLE
 
-  - type: STR_PISTOL_CLIP 
+  - type: STR_PISTOL_CLIP
     requiresBuy:
       - STR_NOT_AVAILABLE
 
@@ -174,7 +174,7 @@ items:
   - type: STR_SMALL_ROCKET
     requires:
       - STR_NOT_AVAILABLE
-  
+
   - type: STR_LARGE_ROCKET
     requires:
       - STR_NOT_AVAILABLE

@@ -1,4 +1,4 @@
-research: 
+research:
   - name: STR_HIDE_LOCK
     needItem: true
 
@@ -506,7 +506,7 @@ ufopaedia:
     requires:
       - STR_HIDE_LOCK
 
- 
+
 
   - id: STR_COMMISSAR_UC
     requires:
@@ -803,7 +803,7 @@ ufopaedia:
 
   - id: STR_LASER_PISTOL                     #10800
     requires:
-      - STR_LASER_WEAPONS  
+      - STR_LASER_WEAPONS
   - id: STR_LASER_RIFLE                      #105
     requires:
       - STR_LASER_WEAPONS
@@ -832,10 +832,10 @@ ufopaedia:
       - STR_WEBBER
   - id: STR_GRENADE                            #13600
     requires:
-      - STR_HIDE_LOCK  
+      - STR_HIDE_LOCK
   - id: STR_KRAK_GRENADE                            #13650
     requires:
-      - STR_HIDE_LOCK  
+      - STR_HIDE_LOCK
   - id: STR_SMOKE_GRENADE                      #13700
     requires:
       - STR_HIDE_LOCK
@@ -984,7 +984,7 @@ ufopaedia:
   - id: STR_ASSC       #4999
     requires:
       - STR_HIDE_LOCK
-      
+
   - id: STR_HFLAMER_CLIP
   - id: STR_THUNDERFIRE_SHELL
 
@@ -1327,17 +1327,17 @@ ufopaedia:
   - delete: STR_ADEPTAS_FRATERIS_MILITIA
   - delete: STR_NOVICE_ORIGINS
   - delete: STR_CANTUS
-  - delete: STR_CANTUS_ORIGINS  
+  - delete: STR_CANTUS_ORIGINS
   - delete: STR_ADEPTAS_HARD_START
   - delete: STR_FAITHFUL_ARMORY
   - delete: STR_ADEPTAS_SOB_MOBILIZATION
   - delete: STR_ADEPTAS_PILOT
   - delete: STR_ADEPTAS_ELOHIM
-  - delete: STR_ELOHIM_ORIGINS 
+  - delete: STR_ELOHIM_ORIGINS
   - delete: STR_ADEPTAS_RETRIBUTOR
-  - delete: STR_RETRIBUTOR_ORIGINS 
-  - delete: STR_ADEPTAS_SUPERIOR  
-  - delete: STR_ADEPTAS_SUPERIOR_ORIGINS 
+  - delete: STR_RETRIBUTOR_ORIGINS
+  - delete: STR_ADEPTAS_SUPERIOR
+  - delete: STR_ADEPTAS_SUPERIOR_ORIGINS
   - delete: STR_DEATHCULT_ASSASSIN
   - delete: STR_DEATHCULT_ASSASSIN_ORIGINSTITLE
   - delete: STR_CHOIR_GUN

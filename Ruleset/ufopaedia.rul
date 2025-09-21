@@ -24,7 +24,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_ORKZ
-      
+
   - id: STR_GRETCHIN_AMMO_BIT
 #    section: STR_WEAPONS_AND_EQUIPMENT
     requires:
@@ -50,7 +50,7 @@ ufopaedia:
     requires:
       - STR_ORKZ
 
-  - id: STR_ORK_GRENADE 
+  - id: STR_ORK_GRENADE
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_ORKZ

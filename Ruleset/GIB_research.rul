@@ -18,7 +18,7 @@ research:
   - name: STR_COMPETING_ORK_LEVEL_1_DEFEATED
     dependencies:
       - STR_GENERALLOCK
-    unlocks: 
+    unlocks:
       - STR_HARD_BOY_ARMOR
 
   - name: STR_COMPETING_ORK_LEVEL_2_DEFEATED
@@ -28,13 +28,13 @@ research:
       - STR_WARBIKER_ARMOR
 
   - name: STR_HARD_BOY_ARMOR
-    dependencies: 
+    dependencies:
       - STR_GENERALLOCK
     cost: 200
     points: 50
 
   - name: STR_WARBIKER_ARMOR
-    dependencies: 
+    dependencies:
       - STR_GENERALLOCK
     cost: 200
     points: 50
@@ -64,7 +64,7 @@ research:
   - delete: STR_KILLA_CORPSE
 
   - delete: STR_ORK_MIG_UFO_DATA
-  - delete: STR_ORK_MIG_UFO
+  # - delete: STR_ORK_MIG_UFO
 
   - name: STR_DATASLATE_SCAN
     getOneFree: !remove

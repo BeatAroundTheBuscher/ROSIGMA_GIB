@@ -30,13 +30,13 @@ facilities:
     workshops: 50
     mapName: XBASE_ORK00
     storageTiles:
-            - [24, 6, 1]
-            - [25, 6, 1]
-            - [27, 6, 1]
-            - [22, 4, 1]
-#            - [34, 10, 1]
-            - [28, 3, 1]
-            - [27, 3, 2]
+      - [24, 6, 1]
+      - [25, 6, 1]
+      - [27, 6, 1]
+      - [22, 4, 1]
+#      - [34, 10, 1]
+      - [28, 3, 1]
+      - [27, 3, 2]
     verticalLevels:
       - type: ground
         terrain: baseTerrain
@@ -85,148 +85,148 @@ facilities:
     connectorsDisabled: true
     mapName: XBASE_ORK03
     storageTiles:
-            - [4, 6, 1]
-            - [5, 6, 1]
-            - [7, 6, 1]
-            - [2, 4, 1]
-            - [8, 3, 1]
-            - [7, 3, 2]
+      - [4, 6, 1]
+      - [5, 6, 1]
+      - [7, 6, 1]
+      - [2, 4, 1]
+      - [8, 3, 1]
+      - [7, 3, 2]
 
 
 
   - type: STR_ACCESS_LIFT
-    requires: 
+    requires:
       - STR_GENERALLOCK
   - type: STR_LIVING_QUARTERS
-    requires: 
+    requires:
       - STR_GENERALLOCK
   - type: STR_LABORATORY
-    requires: 
+    requires:
       - STR_GENERALLOCK
   - type: STR_WORKSHOP
-    requires: 
+    requires:
       - STR_GENERALLOCK
   - type: STR_SMALL_RADAR_SYSTEM
-    requires: 
+    requires:
       - STR_GENERALLOCK
   - type: STR_LARGE_RADAR_SYSTEM
-    requires: 
+    requires:
       - STR_GENERALLOCK
   - type: STR_MISSILE_DEFENSES
-    requires: 
+    requires:
       - STR_GENERALLOCK
   - type: STR_ALIEN_CONTAINMENT
-    requires: 
+    requires:
       - STR_GENERALLOCK
   - type: STR_PRISION
-    requires: 
+    requires:
       - STR_GENERALLOCK
   - type: STR_LASER_DEFENSES
-    requires: 
+    requires:
       - STR_GENERALLOCK
   - type: STR_PLASMA_DEFENSES
-    requires: 
+    requires:
       - STR_GENERALLOCK
   - type: STR_FUSION_BALL_DEFENSES
-    requires: 
+    requires:
       - STR_GENERALLOCK
   - type: STR_GRAV_SHIELD
-    requires: 
+    requires:
       - STR_GENERALLOCK
   - type: STR_MIND_SHIELD
-    requires: 
+    requires:
       - STR_GENERALLOCK
   - type: STR_PSIONIC_LABORATORY
-    requires: 
+    requires:
       - STR_GENERALLOCK
   - type: STR_HYPER_WAVE_DECODER
-    requires: 
+    requires:
       - STR_GENERALLOCK
   - type: STR_HANGAR
-    requires: 
+    requires:
       - STR_GENERALLOCK
   - type: STR_COMUNICATIONS
-    requires: 
+    requires:
       - STR_GENERALLOCK
   - type: STR_ARMORY
-    requires: 
+    requires:
       - STR_GENERALLOCK
   - type: STR_ARMORY_ARBITES
-    requires: 
+    requires:
       - STR_GENERALLOCK
   - type: STR_APOC_BAY
-    requires: 
+    requires:
       - STR_GENERALLOCK
   - type: STR_LIBRARY
-    requires: 
+    requires:
       - STR_GENERALLOCK
   - type: STR_INQOFF
-    requires: 
+    requires:
       - STR_GENERALLOCK
   - type: STR_TEC_BAY
-    requires: 
+    requires:
       - STR_GENERALLOCK
   - type: STR_TEC_BAY_CHAMBER
-    requires: 
+    requires:
       - STR_GENERALLOCK
   - type: STR_DEFENSE_CORRIDOR
-    requires: 
+    requires:
       - STR_GENERALLOCK
   - type: STR_DEFENSE_HALL
-    requires: 
+    requires:
       - STR_GENERALLOCK
   - type: STR_DEFENSE_CORRIDORB
-    requires: 
+    requires:
       - STR_GENERALLOCK
   - type: STR_DEFENSE_CORRIDORGK
-    requires: 
+    requires:
       - STR_GENERALLOCK
   - type: STR_CORRIDOR
-    requires: 
+    requires:
       - STR_GENERALLOCK
   - type: STR_STEELMILL
-    requires: 
+    requires:
       - STR_GENERALLOCK
   - type: STR_TRAINFACILITY
-    requires: 
+    requires:
       - STR_GENERALLOCK
   - type: STR_CHAOS_SHRINE
-    requires: 
+    requires:
       - STR_GENERALLOCK
   - type: STR_OUTPOST
-    requires: 
+    requires:
       - STR_GENERALLOCK
   - type: STR_OUTPOST_MARINES
-    requires: 
+    requires:
       - STR_GENERALLOCK
   - type: STR_OUTPOST_GUARD
-    requires: 
+    requires:
       - STR_GENERALLOCK
   - type: STR_OUTPOST_ADEPTAS
-    requires: 
+    requires:
       - STR_GENERALLOCK
 
 
   - type: STR_DIRT
-  
+
 
   - type: STR_EMPLACEMENT
-    requires: 
+    requires:
       - STR_GENERALLOCK
   - type: STR_EMPLACEMENT_HEAVY
-    requires: 
+    requires:
       - STR_GENERALLOCK
   - type: STR_MINEFIELD
-    requires: 
+    requires:
       - STR_GENERALLOCK
   - type: STR_TRAINCAMP
-    requires: 
+    requires:
       - STR_GENERALLOCK
   - type: STR_MARKET
-    requires: 
+    requires:
       - STR_GENERALLOCK
   - type: STR_POWERG
-    requires: 
+    requires:
       - STR_GENERALLOCK
 
 

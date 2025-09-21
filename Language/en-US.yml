@@ -1,4 +1,4 @@
-en-US:
+en-US:  # yamllint disable-line rule:empty-values
 
   STR_1_BEGINNER: "(Not Available in GIB)"
   STR_2_EXPERIENCED: "Orkz Orkz Orkz"
